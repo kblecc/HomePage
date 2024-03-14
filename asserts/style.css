@@ -1,0 +1,329 @@
+/* Required for proper centering */
+:root,
+[data-bs-theme='light'] {
+  --primary-100:#FFAEAE;
+  --primary-200:#df9191;
+  --primary-300:#975053;
+  --accent-100:#F7C4C4;
+  --accent-200:#926566;
+  --text-100:#333333;
+  --text-200:#5c5c5c;
+  --bg-100:#FFFFFF;
+  --bg-200:#f5f5f5;
+  --bg-300:#cccccc;
+  --success-100:#A7B7AE;
+  --success-200:#7B9386;
+  --success-300:#4E6E5D;
+  --success-accent-100:#6D8B6A;
+  --success-accent-200:#193418;
+  --info-100:#acd8ff;
+  --info-200:#4978a4;
+  --info-300:#0F4C75;
+  --info-accent-100:#d5ffff;
+  --info-accent-200:#3282B8;
+  --warning-100:#FFD166;
+  --warning-200:#deb349;
+  --warning-300:#957200;
+  --warning-accent-100:#FF9F1C;
+  --warning-accent-200:#904400;
+  --danger-100:#FF7F7F;
+  --danger-200:#de6264;
+  --danger-300:#921b2a;
+  --danger-accent-100:#fff6e8;
+  --danger-accent-200:#FF5959;
+  --royalty-100:#b3a3cf;
+  --royalty-200:#7D6B9E;
+  --royalty-300:#5E4D7D;
+  --royalty-accent-100:#f0daff;
+  --royalty-accent-200:#43355c;
+}
+[data-bs-theme='dark'] {
+
+  --primary-100:#FFAEAE;
+  --primary-200:#df9191;
+  --primary-300:#975053;
+  --accent-100:#8C8C8C;
+  --accent-200:#353535;
+  --text-100:#FFFFFF;
+  --text-200:#e0e0e0;
+  --bg-100:#3D3D3D;
+  --bg-200:#4e4e4e;
+  --bg-300:#676767;
+  --success-100:#A7B7AE;
+  --success-200:#7B9386;
+  --success-300:#4E6E5D;
+  --success-accent-100:#6D8B6A;
+  --success-accent-200:#193418;
+  --info-100:#acd8ff;
+  --info-200:#4978a4;
+  --info-300:#0F4C75;
+  --info-accent-100:#d5ffff;
+  --info-accent-200:#3282B8;
+  --warning-100:#FFD166;
+  --warning-200:#deb349;
+  --warning-300:#957200;
+  --warning-accent-100:#FF9F1C;
+  --warning-accent-200:#904400;
+  --danger-100:#FF7F7F;
+  --danger-200:#de6264;
+  --danger-300:#921b2a;
+  --danger-accent-100:#fff6e8;
+  --danger-accent-200:#921b2a;
+  --royalty-100:#b3a3cf;
+  --royalty-200:#7D6B9E;
+  --royalty-300:#5E4D7D;
+  --royalty-accent-100:#f0daff;
+  --royalty-accent-200:#43355c;
+}
+
+html,
+body {
+  height: 100vh;
+  width: 100vw;
+  margin: 0px;
+  font-family: 'Raleway', sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 200;
+  font-style: thin;
+  overflow: hidden;
+  background-color: var(--bg-100);
+}
+
+.nav_item {
+  background-color:var(--bg-200);
+  overflow-wrap: break-word;
+  max-width: 450px;
+  padding: 24px;
+  border-radius: 24px;
+}
+
+.nav_item:hover {
+  background-color:var(--bg-300);
+
+}
+
+
+.btn {
+    width: auto;
+    border-radius: 50vw;
+    padding: 1rem 2rem;
+    border: none;
+  }
+
+
+  .btn-primary {
+    --bs-btn-color: var(--primary-300);
+    --bs-btn-bg: var(--primary-100);
+    --bs-btn-border-color: var(--primary-100);
+    --bs-btn-hover-color:  var(--primary-300);
+    --bs-btn-hover-bg: var(--primary-200);
+    --bs-btn-hover-border-color: var(--primary-200);
+    --bs-btn-focus-shadow-rgb: 49, 132, 253;
+    --bs-btn-active-color: var(--text-100);
+    --bs-btn-active-bg: var(--primary-300);
+    --bs-btn-active-border-color: var(--primary-300);
+    --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.0);
+    --bs-btn-disabled-color: var(--text-100);
+    --bs-btn-disabled-bg: var(--primary-300);
+    --bs-btn-disabled-border-color: var(--primary-300);
+  }
+
+
+.footer {
+  font-size: 0.7rem;
+  padding: 1vh;
+}
+.word {
+  position: absolute;
+  width: 220px;
+  opacity: 0;
+  margin-left: 1vh;
+}
+
+.letter {
+  display: inline-block;
+  position: relative;
+  transform: translateZ(25px);
+  transform-origin: 50% 50% 25px;
+}
+
+.letter.out {
+  transform: rotateX(90deg);
+  transition: transform 0.32s cubic-bezier(0.55, 0.055, 0.675, 0.19);
+}
+
+.letter.behind {
+  transform: rotateX(-90deg);
+}
+
+.letter.in {
+  transform: rotateX(0deg);
+  transition: transform 0.38s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+.royalty {
+  color: var(--royalty-200);
+}
+
+.info {
+  color: var(--info-200);
+}
+
+.danger {
+  color: var(--danger-200);
+}
+
+.success {
+  color: var(--success-accent-100);
+}
+
+.warning {
+  color: var(--warning-200);
+}
+
+.modal {
+  backdrop-filter: blur(20px);
+}
+
+.btn-close {
+  border-radius: 5vh;
+  background-color: var(--bs-gray-400);
+}
+
+.k-content {
+  background-color:var(--bg-200);
+
+}
+
+.k-content-fh{
+    background-color:var(--bg-200);
+    height:90vh;
+  }
+
+@media (min-width: 0px) {
+  .nav_modal-dialog {
+    padding: 24px;
+  }
+  .k-content {
+    width: 90vw;
+    padding: 18px;
+    border-radius: 32px;
+  }
+  .modal-header {
+    background-color: var(--bg-100);
+    padding: 24px 24px 8px 18px;
+    border: none;
+    border-radius: 24px 24px 0px 0px;
+  }
+
+  .modal-content {
+    background-color: var(--bg-100);
+    border: none;
+    border-radius: 24px;
+    padding: 0px 12px 0px 12px;
+  }
+
+  .modal-footer {
+    background-color: var(--bg-100);
+    border: none;
+    border-radius: 0px 0px 24px 24px;
+  }
+}
+@media (min-width: 500px) {
+  .nav_modal-dialog {
+    max-width: 900px;
+    padding: 24px;
+    width: 70vw;
+    max-width: 900px;
+  }
+  .k-content {
+    width: 60vw;
+    max-width: 900px;
+    padding: 32px;
+    border-radius: 48px;
+  }
+  .modal-header {
+    padding: 32px 24px 18px 18px;
+    border: none;
+    border-radius: 24px 24px 0px 0px;
+  }
+
+  .modal-content {
+    border: none;
+    border-radius: 24px;
+    padding: 0px 24px 0px 24px;
+  }
+
+  .modal-footer {
+    border: none;
+    border-radius: 0px 0px 24px 24px;
+  }
+}
+.avatar {
+  max-width: 150px;
+  border-radius: 50%;
+}
+body .k-content > * {
+  margin-bottom: 16px;
+}
+.k-content:last-child {
+  margin-bottom: 0px;
+}
+.icon {
+  background-color: var(--primary-100);
+  padding: 8px;
+  border-radius: 50%;
+
+}
+
+.btn-exp{
+    padding: 1rem 1.5rem;
+}
+
+.k-card{
+    border-radius: 24px;
+    background-color: var(--bg-300);
+}
+
+.server-item{
+    background-color: var(--bg-300);
+    overflow-wrap: break-word;
+    max-width: 450px;
+    padding: 24px;
+    border-radius: 24px;
+}
+
+::-webkit-scrollbar-track
+{
+
+	border-radius: 50vw;
+	background-color: var(--bg-100);
+}
+
+::-webkit-scrollbar
+{
+
+	width: 3px;
+	background-color: var(--bg-100);
+}
+
+::-webkit-scrollbar-thumb
+{
+ 
+	border-radius: 10px;
+  background-clip: padding-box;
+	background-color: var(--bg-300);
+}
+
+.k-content-container{
+  overflow-x: hidden;
+  overflow-y: scroll;
+  height: 92%;
+}
+
+body .k-content-container > * {
+  margin-bottom: 16px;
+}
+.k-content-container:last-child {
+  margin-bottom: 0px;
+}
