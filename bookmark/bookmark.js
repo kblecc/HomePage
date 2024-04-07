@@ -102,7 +102,7 @@ function build_bm_area(datafp) {
 
 function get_json() {
   $.ajax({
-    url: 'https://raw.githubusercontent.com/kblecc/kblerandombookmark/master/link.json',
+    url: './link.json',
     async: false,
     dataType: 'json',
     success: function (json) {
