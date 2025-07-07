@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en" data-bs-theme="dark">
   <head>
     <title>kbleCC</title>
@@ -7,14 +7,14 @@
       name="viewport"
       content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no"
     />
-    <link rel="apple-touch-icon" sizes="180x180" href="./favico/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="./favico/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="./favico/favicon-16x16.png">
-    <link rel="manifest" href="./favico/site.webmanifest">
-    <script
+    <link rel="apple-touch-icon" sizes="180x180" href="./favico/apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="./favico/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="./favico/favicon-16x16.png" />
+    <link rel="manifest" href="./favico/site.webmanifest" />
+    <!-- <script
       type="text/javascript"
       src="https://cdn.jsdelivr.net/npm/ipad-cursor-js@latest/index.js"
-    ></script>
+    ></script> -->
 
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -22,296 +22,124 @@
       href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,900;1,100;1,200;1,800;1,900&display=swap"
       rel="stylesheet"
     />
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
-    <script
-      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
-      integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
-    ></script>
-    <link rel="stylesheet" href="./asserts/style.css">
-    <script type="text/javascript">
-      jQuery(document).ready(function () {
-        document
-          .getElementById('theme-switch')
-          .addEventListener('click', () => {
-            if (
-              document.documentElement.getAttribute('data-bs-theme') == 'dark'
-            ) {
-              document.documentElement.setAttribute('data-bs-theme', 'light');
-            } else {
-              document.documentElement.setAttribute('data-bs-theme', 'dark');
-            }
-          });
-      });
-    </script>
+
     <script src="https://unpkg.com/feather-icons"></script>
+    <link rel="icon" href="/favicon.ico" />
   </head>
   <body>
-    <div
-      class="container-fluid d-flex justify-content-center align-items-center"
-      id="main"
-      style="height: 95vh"
-    >
-      <div class="row k-content">
-        <img class="avatar" src="./img/avatar.png" />
-        <h1>
-          Hi, this is kble
-        </h1>
-        <h2>
-          I am a
-          <span class="word success">painter</span>
-          <span class="word warning">designer</span>
-          <span class="word info">developer</span>
-          <span class="word danger">collector</span>
-        </h2>
-        <p>
-          I do all kind of stuff, mini projects and learn from them.<br>
-          Fell free to look around, hope that you would get to know more about me and find something useful.
-        </p>
-        <div class="clearfix">
-          <button
-            class="btn btn-primary float-end"
-            data-cursor="drag"
-            data-bs-toggle="modal"
-            data-bs-target="#nav_modal"
-          >
-          <i data-feather="menu" style="stroke-width: 1px; color:var(--primary-300);margin-right: 8px;"></i>menu
-          </button>
-        </div>
-      </div>
-    </div>
-    <div
-      class="
-        footer
-        container-fluid
-        d-flex
-        justify-content-center
-        align-items-center
-      "
-      style="height: 5vh"
-    >
-      © 2024 | Caleb Cheng | All rights reserved
-    </div>
-    <!-- Modal -->
-    <div
-      class="modal fade"
-      id="nav_modal"
-      tabindex="-1"
-      aria-labelledby="exampleModalLabel"
-      aria-hidden="true"
-    >
-      <div class="modal-dialog nav_modal-dialog modal-dialog-centered">
-        <div class="modal-content">
-          <div class="modal-header">
-            <h1 class="modal-title fs-5" id="exampleModalLabel">menu</h1>
-            <button
-              type="button"
-              class="btn-close"
-              data-bs-dismiss="modal"
-              aria-label="Close"
-              data-cursor="drag"
-            ></button>
-          </div>
-          <div class="modal-body">
-            <div
-              class="
-                row row-cols-1 row-cols-sm-2 row-cols-md-2 row-cols-lg-2
-                g-2
-              "
-            >
-              <div class="col">
-                <div
-                  class="nav_item"
-                  onclick="window.location.replace('/bookmark/');"
-                  data-cursor="drag"
-                >
-                  <div class="d-flex justify-content-between">
-                    <div class="d-flex flex-row align-items-center">
-                      <div class="icon">
-                        <i data-feather="bookmark" style="stroke-width: 1px; color:var(--primary-300);"></i>
-                          
-                      </div>
-                      <div class="ms-2 c-details">
-                        <p class="mb-0">bookmark</p>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-
-              <div class="col">
-                <div
-                  class="nav_item"
-                  onclick="window.location.replace('/tool/quicknote');"
-                  data-cursor="drag"
-                >
-                  <div class="d-flex justify-content-between">
-                    <div class="d-flex flex-row align-items-center">
-                      <div class="icon">
-                        <i data-feather="bookmark" style="stroke-width: 1px; color:var(--primary-300);"></i>
-                          
-                      </div>
-                      <div class="ms-2 c-details">
-                        <p class="mb-0">QuickNote</p>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-
-              <div class="col">
-                <div
-                  class="nav_item"
-                  onclick="window.location.replace('/tool/base64');"
-                  data-cursor="drag"
-                >
-                  <div class="d-flex justify-content-between">
-                    <div class="d-flex flex-row align-items-center">
-                      <div class="icon">
-                        <i data-feather="bookmark" style="stroke-width: 1px; color:var(--primary-300);"></i>
-                          
-                      </div>
-                      <div class="ms-2 c-details">
-                        <p class="mb-0">Base64</p>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              
-              <div class="col">
-                <div
-                  class="nav_item"
-                  onclick="window.location.replace('/sing/bokuha/');"
-                  data-cursor="drag"
-                >
-                <div class="d-flex justify-content-between">
-                  <div class="d-flex flex-row align-items-center">
-                    <div class="icon">
-                      <i data-feather="disc" style="stroke-width: 1px; color:var(--primary-300);"></i>
-                        
-                    </div>
-                    <div class="ms-2 c-details">
-                      <p class="mb-0">sing</p>
-                    </div>
-                  </div>
-                </div>
-                  
-                </div>
-              </div>
-
-              <div class="col">
-                <div
-                  class="nav_item"
-                  onclick="window.location.replace('/status/');"
-                  data-cursor="drag"
-                >
-                <div class="d-flex justify-content-between">
-                  <div class="d-flex flex-row align-items-center">
-                    <div class="icon">
-                      <i data-feather="activity" style="stroke-width: 1px; color:var(--primary-300);"></i>
-                        
-                    </div>
-                    <div class="ms-2 c-details">
-                      <p class="mb-0">status</p>
-                    </div>
-                  </div>
-                </div>
-                  
-                </div>
-              </div>
-
-              <div class="col">
-                <div
-                  class="nav_item"
-                  onclick="window.location.replace('/about/');"
-                  data-cursor="drag"
-                >
-                <div class="d-flex justify-content-between">
-                  <div class="d-flex flex-row align-items-center">
-                    <div class="icon">
-                      <i data-feather="info" style="stroke-width: 1px; color:var(--primary-300);"></i>
-                        
-                    </div>
-                    <div class="ms-2 c-details">
-                      <p class="mb-0">about</p>
-                    </div>
-                  </div>
-                </div>
-                  
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="modal-footer">
-            <button class="btn btn-secondary" id="theme-switch">Light/Dark</button>
-          </div>
-        </div>
-      </div>
-    </div>
+    <div id="app"></div>
+    <div id="g-pointer-2"></div>
+    <div id="g-pointer-1"></div>
+    <script type="module" src="/src/main.js"></script>
   </body>
 
   <script>
-    feather.replace();
+    function mouseFollow() {
+      console.log(window.innerWidth)
+      const element = document.getElementById('g-pointer-1')
+      const element2 = document.getElementById('g-pointer-2')
+      if (window.innerWidth >= 991) {
+        const body = document.querySelector('body')
 
-    var words = document.getElementsByClassName('word');
-    var wordArray = [];
-    var currentWord = 0;
+        const halfAlementWidth = element.offsetWidth / 2
+        const halfAlementWidth2 = element2.offsetWidth / 2
 
-    words[currentWord].style.opacity = 1;
-    for (var i = 0; i < words.length; i++) {
-      splitLetters(words[i]);
-    }
+        // 该变量用于跟踪鼠标是否悬停在具有类名为 .g-animation 的元素上
+        let isHovering = false
 
-    function changeWord() {
-      var cw = wordArray[currentWord];
-      var nw =
-        currentWord == words.length - 1
-          ? wordArray[0]
-          : wordArray[currentWord + 1];
-      for (var i = 0; i < cw.length; i++) {
-        animateLetterOut(cw, i);
+        // 判断元素是否悬停在具有类名为 .g-animation 的元素上
+
+        window.addEventListener('mouseover', (event) => {
+          const target = event.target
+
+          if (target.classList.contains('m-element')) {
+            isHovering = true
+
+            const rect = target.getBoundingClientRect()
+            const style = window.getComputedStyle(target)
+
+            element2.style.width = `${rect.width + 20}px`
+            element2.style.height = `${rect.height + 20}px`
+            element2.style.borderRadius = `${style.borderRadius}`
+            element2.style.transform = `translate(${rect.left - 10}px, ${rect.top - 10}px)`
+            element2.style.opacity = 0
+          }
+        })
+
+        // 判断元素是否离开在具有类名为 .g-animation 的元素上
+        window.addEventListener('mouseout', (event) => {
+          const target = event.target
+          if (target.classList.contains('m-element')) {
+            isHovering = false
+
+            // 样式复原
+            element2.style.width = `42px`
+            element2.style.height = `42px`
+            element2.style.borderRadius = `42px`
+            element2.style.opacity = 0.5
+          }
+        })
+
+        // 用于控制两个鼠标指针元素
+        body.addEventListener('mousemove', (e) => {
+          window.requestAnimationFrame(function () {
+            setPosition(e.clientX, e.clientY)
+          })
+        })
+
+        function setPosition(x, y) {
+          console.log('mouse move')
+          window.requestAnimationFrame(function () {
+            element.style.transform = `translate(${x}px, ${y}px)`
+
+            if (!isHovering) {
+              element2.style.transform = `translate(${x}px, ${y}px)`
+            }
+          })
+        }
+      } else {
+        const body = document.querySelector('body')
+
+        // Remove mousemove event listener from body
+        body.replaceWith(body.cloneNode(true))
       }
-
-      for (var i = 0; i < nw.length; i++) {
-        nw[i].className = 'letter behind';
-        nw[0].parentElement.style.opacity = 1;
-        animateLetterIn(nw, i);
-      }
-
-      currentWord = currentWord == wordArray.length - 1 ? 0 : currentWord + 1;
     }
-
-    function animateLetterOut(cw, i) {
-      setTimeout(function () {
-        cw[i].className = 'letter out';
-      }, i * 80);
+    mouseFollow()
+    addEventListener('resize', (event) => {})
+    onresize = (event) => {
+      mouseFollow()
     }
-
-    function animateLetterIn(nw, i) {
-      setTimeout(function () {
-        nw[i].className = 'letter in';
-      }, 340 + i * 80);
-    }
-
-    function splitLetters(word) {
-      var content = word.innerHTML;
-      word.innerHTML = '';
-      var letters = [];
-      for (var i = 0; i < content.length; i++) {
-        var letter = document.createElement('span');
-        letter.className = 'letter';
-        letter.innerHTML = content.charAt(i);
-        word.appendChild(letter);
-        letters.push(letter);
-      }
-
-      wordArray.push(letters);
-    }
-
-    changeWord();
-    setInterval(changeWord, 4000);
   </script>
+  <style>
+    body {
+      overflow: hidden;
+    }
+    @media (min-width: 992px) {
+      body {
+        cursor: none;
+      }
+      #g-pointer-1,
+      #g-pointer-2 {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 12px;
+        height: 12px;
+        background: #999;
+        border-radius: 12px;
+        background-color: #ffaeae;
+        z-index: 9999;
+        mix-blend-mode: normal;
+        pointer-events: none;
+      }
+      #g-pointer-2 {
+        width: 42px;
+        height: 42px;
+        background: #fff;
+        transition: 0.15s ease-out;
+        opacity: 0.5;
+        border-radius: 42px;
+      }
+    }
+  </style>
 </html>
