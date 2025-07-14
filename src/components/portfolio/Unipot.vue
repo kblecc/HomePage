@@ -1,7 +1,7 @@
 <template>
   <div class="work-viewport p-4">
     <img
-      src="https://placehold.co/1200x600?text=Nature+Landscape"
+      src="@/assets/portfolio/UniPot/Banner.jpg"
       class="k-card-img"
       alt="Scenic nature landscape with mountains, lake, and forest during golden hour"
     />
@@ -20,8 +20,9 @@
     <div class="col">
       <p>
         This page outlines the creative process behind the UniPot project, detailing the journey
-        from initial concept and styling to the final poster design. The process was driven by the
-        goal of rebranding the traditional Hong Kong dish, Poon Choi, for a new generation.
+        from initial concept and styling to the final poster and souvenir design. The process was
+        driven by the goal of rebranding the traditional Hong Kong dish, Poon Choi, for a new
+        generation.
       </p>
 
       <h4>The Ideal and Styling Process</h4>
@@ -51,7 +52,10 @@
       <h4>Symbolic Graphics from Ingredients</h4>
       <p>
         With the core styling defined, the next step was to build a comprehensive visual identity,
-        starting with the most fundamental elements.
+        starting with the most fundamental elements. A unique visual language is developed by
+        deconstructing the ingredients of Poon Choi into simple, symbolic graphics. Each shape and
+        line represents a different element of the dish, creating a versatile pattern that forms the
+        foundation of the brand's identity.
       </p>
       <div class="svg-grid">
         <div class="col">
@@ -348,17 +352,286 @@
           </svg>
         </div>
       </div>
+      <h4>Development of Visual Idenetity</h4>
+      <p></p>
+      <div class="row row-cols-2 row-cols-lg-4">
+        <div class="col">
+          <img class="img-fluid" src="@/assets/portfolio/UniPot/init 0.jpg" />
+        </div>
+        <div class="col">
+          <img class="img-fluid" src="@/assets/portfolio/UniPot/init 1.jpg" />
+        </div>
+        <div class="col">
+          <img class="img-fluid" src="@/assets/portfolio/UniPot/init 2.jpg" />
+        </div>
+        <div class="col">
+          <img class="img-fluid" src="@/assets/portfolio/UniPot/init 3.jpg" />
+        </div>
+      </div>
+      <img class="img-fluid" src="@/assets/portfolio/UniPot/Logo Symbo Mono V1.jpg" />
+      <h5>Initial Version</h5>
+      <p>
+        In the initial stage, the project was still operating under the original name, 'Poon Choi'.
+        To test the ideal style, the first logo was created with the desired primary color palette
+        to see how the aesthetic would feel.
+      </p>
+      <img class="img-fluid" src="@/assets/portfolio/UniPot/Full Logo V1.jpg" />
+      <div class="row row-cols-2 row-cols-lg-4">
+        <div class="col-6">
+          <img class="img-fluid" src="@/assets/portfolio/UniPot/Wordmarks EN V1.jpg" />
+        </div>
+        <div class="col">
+          <img class="img-fluid" src="@/assets/portfolio/UniPot/Wordmarks ZH V1.jpg" />
+        </div>
+        <div class="col-6">
+          <img class="img-fluid" src="@/assets/portfolio/UniPot/Square Logo EN V1.jpg" />
+        </div>
+        <div class="col">
+          <img class="img-fluid" src="@/assets/portfolio/UniPot/Square Logo ZH V1.jpg" />
+        </div>
+      </div>
+      <h5>Finalized Version</h5>
+      <img class="img-fluid" src="@/assets/portfolio/UniPot/Full Logo V2.jpg" />
+      <p class="text-centered">
+        選取了盆菜最具有代表性的三個特質<br />
+        「聚」:團圓相聚 「寶」:豐盛的食材 「盆」:盆菜的視覺特點
+      </p>
+      <p class="text-centered">
+        Selected the three most representative characteristics of Poon Choi: The Chinese name,
+        聚寶盆, was chosen to honor its heritage.<br />
+        For the English branding, we created "UniPot" to capture a modern, global feel: "Uni" :
+        Represents the spirit of union and reunion — bringing people together over a shared meal.
+        "Pot" Represents the method and container of serving Poon Choi, making the name intuitive
+        and memorable.
+      </p>
+      <div class="row row-cols-2 row-cols-md-2 row-cols-lg-4">
+        <div class="col-6">
+          <img class="img-fluid" src="@/assets/portfolio/UniPot/Wordmarks EN V2a.jpg" />
+        </div>
+        <div class="col">
+          <img class="img-fluid" src="@/assets/portfolio/UniPot/Wordmarks ZH V2.jpg" />
+        </div>
+        <div class="col-6">
+          <img class="img-fluid" src="@/assets/portfolio/UniPot/Square Logo EN V2.jpg" />
+        </div>
+        <div class="col">
+          <img class="img-fluid" src="@/assets/portfolio/UniPot/Square Logo ZH V2.jpg" />
+        </div>
+      </div>
+      <h5>Typography</h5>
+      <img class="img-fluid" src="@/assets/portfolio/UniPot/Typography.jpg" />
+      <h5>Color Pallet</h5>
+      <img class="img-fluid" src="@/assets/portfolio/UniPot/Moodboard.jpg" />
+      <img class="img-fluid" src="@/assets/portfolio/UniPot/CPAll.png" />
+      <p>
+        This palette reflects the colors of Poon Choi’s key ingredients: red (roasted meats), orange
+        (seafood), gold (rich sauces), white (rice), and green (vegetables).
+        <br />
+        符合盆菜的食材色彩：紅（燒味）、橙（大蝦）、金（醬汁）、白（米飯）、綠（蔬菜），讓品牌與食物產生直覺聯繫。
+        <br />
+        It enhances appetite appeal, ensuring that the brand feels inviting, festive, and premium.
+        <br />
+        強化品牌的食慾吸引力：紅、橙、金屬於溫暖色系，能夠直接刺激人的食慾。
+        <br />
+        It also balances heritage and modernity, making Poon Choi attractive to younger audiences
+        while respecting tradition.
+        <br />
+        兼具傳統與現代感：用金色與紅色傳遞傳統文化，用綠色與米白色平衡現代簡約感，適合吸引年輕人。
+      </p>
+      <img class="img-fluid" src="@/assets/portfolio/UniPot/CPRed.png" />
+      <p>
+        <b>[E83A3A] Prosperity & Passion 吉祥與熱情</b>
+        <br />
+        Represents luck, celebration, and prosperity, aligning with the festive nature of Poon Choi.
+        <br />
+        象徵：幸運、慶祝、繁榮，與盆菜的節慶氛圍完美契合。
+        <br />
+        Stimulates appetite and excitement, making food look more delicious.
+        <br />
+        食慾： 紅色是最能激發食慾的顏色之一，讓食物看起來更美味可口。
+        <br />
+        Symbolizes togetherness, fitting the communal aspect of the dish.
+        <br />
+        文化：代表團圓與熱鬧，與「聚」的概念相符，增強品牌情感聯繫。
+      </p>
+      <img class="img-fluid" src="@/assets/portfolio/UniPot/CPOrange.png" />
+      <p>
+        <b>[FF9B43] Warmth & Energy 溫暖與活力</b>
+        <br />
+        A vibrant and inviting color that conveys warmth, enthusiasm, and joy.
+        <br />
+        象徵： 歡樂、熱情、溫暖，帶來親切且有能量的感覺。
+        <br />
+        ften associated with delicious, hearty foods like roasted meats and rich broths.
+        <br />
+        橙色與許多美味食物（燒鴨、蝦、紅燒料理）相近，讓人聯想到豐盛佳餚。
+        <br />
+        Creates a sense of comfort and approachability, appealing to younger audiences.
+        <br />
+        吸引力：年輕且富有活力的色彩，有助於吸引新世代消費者。
+      </p>
+      <img class="img-fluid" src="@/assets/portfolio/UniPot/CPYellow.png" />
+      <p>
+        <b>[FFBF34] Abundance & Fortune 豐盛與財富</b>
+        <br />
+        Evokes wealth and prosperity, much like the treasured ingredients in Poon Choi. 象徵：
+        <br />
+        黃金色寓意財富與好運，讓人聯想到「金玉滿堂」。
+        <br />
+        Reminiscent of golden crispy skin, rich sauces, and glistening seafood, making dishes feel
+        luxurious. 食慾：
+        <br />
+        金黃色讓人想到脆皮燒鴨、醬汁光澤、煎炸食物的香氣，營造頂級美食的印象。
+        <br />
+        Bright and eye-catching, helping the brand stand out.
+        <br />
+        品牌價值：這個顏色能強調盆菜的豐盛感，使品牌更具高端與尊貴感。
+      </p>
+      <img class="img-fluid" src="@/assets/portfolio/UniPot/CPWhite.png" />
+      <p>
+        <b>[FEFAE0] Balance & Elegance 平衡與細緻</b>
+        <br />
+        A neutral, soft tone that balances the bold colors, creating harmony.
+        <br />
+        象徵： 簡約、溫暖、優雅，是一種能讓視覺更平衡的中性色。
+        <br />
+        Represents warm rice, tofu, and light broths—essential elements of Cantonese cuisine.
+        <br />
+        食物聯想： 米飯、豆腐、清湯，都是盆菜中的重要元素。
+        <br />
+        Provides a clean, modern aesthetic, ensuring versatility in design.
+        <br />
+        品牌感覺：提供乾淨、現代的設計感，能夠與鮮豔色彩形成視覺對比。
+      </p>
+      <img class="img-fluid" src="@/assets/portfolio/UniPot/CPGreen.png" />
+      <p>
+        <b>[386641] Freshness & Tradition 新鮮與傳統</b>
+        <br />
+        Adds a sense of freshness and natural balance, representing leafy greens, herbs, and bamboo
+        leaves.
+        <br />
+        象徵：穩重、健康、自然，傳遞正宗與歷史感。
+        <br />
+        Ties to longevity, stability, and authenticity, reinforcing cultural depth.
+        <br />
+        食物聯想： 生菜、西蘭花、髮菜，這些都是盆菜中不可缺少的點綴。
+        <br />
+        Complements the warm tones, preventing the palette from feeling too overwhelming.
+        <br />
+        設計應用：與溫暖色調互補，使整體配色不會過於熱烈，保持高級感。
+      </p>
+
       <h4>The Poster & Souvenir Design Journey</h4>
       <p>
         The final step was to bring the visual identity to life through a series of promotional
         posters and souvenirs.
       </p>
       <h5>Drafting and Conceptualization</h5>
+      <p>
+        The campaign was built around three distinct posters, each designed to highlight a core
+        theme of the UniPot experience.
+      </p>
       <h6>Poster A</h6>
+      <p>
+        <b>The Layers</b> This poster was conceptualized to deconstruct the dish's architecture,
+        visually guiding the viewer from the top-layer seafood down to the broth-absorbing white
+        radish at the bottom.
+      </p>
+      <img class="img-fluid" src="@/assets/portfolio/UniPot/Poster A Draft.jpg" />
+
       <h6>Poster B</h6>
+      <p>
+        <b>The Gathering</b> The second poster emphasizes the communal joy of sharing, symbolized by
+        multiple pairs of chopsticks interacting with the dish.
+      </p>
+      <img class="img-fluid" src="@/assets/portfolio/UniPot/Poster B Draft.jpg" />
+      <h6>Poster C</h6>
+      <p>
+        The New Generation. The final poster introduces a modern twist, showcasing new ingredients
+        favored by a younger palate.
+      </p>
+      <img class="img-fluid" src="@/assets/portfolio/UniPot/Poster C Draft.jpg" />
+
       <h6>Souvenir</h6>
+      <p>
+        The primary souvenir is a postcard designed to promote the communal aspect of Poon Choi. The
+        maximize engagement have been recognized, postcards featuring charming cartoon characters
+        would have a broader appeal than simple food graphics. Therefore, the idea was to combine
+        the auspicious meaning of the ingredients with lovable cartoon characters for the postcard's
+        graphic art.
+      </p>
+      <div class="row row-cols-3">
+        <div class="col">
+          <img class="img-fluid" src="@/assets/portfolio/UniPot/PostCard A Draft.jpg" />
+        </div>
+        <div class="col">
+          <img class="img-fluid" src="@/assets/portfolio/UniPot/PostCard B Draft.jpg" />
+        </div>
+        <div class="col">
+          <img class="img-fluid" src="@/assets/portfolio/UniPot/PostCard C Draft.jpg" />
+        </div>
+      </div>
       <p></p>
       <h5>The Final Product</h5>
+      <h6>Poster A</h6>
+      <img class="img-fluid" src="@/assets/portfolio/UniPot/Poster A.jpg" />
+
+      <h6>Poster B</h6>
+      <img class="img-fluid" src="@/assets/portfolio/UniPot/Poster B.jpg" />
+      <h6>Souvenir</h6>
+      <p>
+        To promote the activity of gathering to enjoy Poon Choi, postcards and card stickers are
+        propsed to offer an effeicient and effective way of promotion. The post card can be used as
+        an invitation.
+      </p>
+      <div class="row row-cols-2">
+        <div class="col">
+          <img class="img-fluid" src="@/assets/portfolio/UniPot/PostCard A.jpg" />
+        </div>
+        <div class="col">
+          <img class="img-fluid" src="@/assets/portfolio/UniPot/PostCard B.jpg" />
+        </div>
+        <div class="col">
+          <img class="img-fluid" src="@/assets/portfolio/UniPot/PostCard C.jpg" />
+        </div>
+        <div class="col-6">
+          <img class="img-fluid" src="@/assets/portfolio/UniPot/PostCard Back.jpg" />
+        </div>
+      </div>
+      <p>
+        Below is the design of the card sticker which people can stick on their Octopus card. The
+        textless design focuses purely on the appealing visuals, serving to capture attention and
+        build brand recognition in a subtle, everyday context.
+      </p>
+      <div class="row row-cols-3">
+        <div class="col">
+          <img class="img-fluid" src="@/assets/portfolio/UniPot/Sticker C Orange.jpg" />
+        </div>
+        <div class="col">
+          <img class="img-fluid" src="@/assets/portfolio/UniPot/Sticker B Green.jpg" />
+        </div>
+        <div class="col">
+          <img class="img-fluid" src="@/assets/portfolio/UniPot/Sticker A Green.jpg" />
+        </div>
+        <div class="col">
+          <img class="img-fluid" src="@/assets/portfolio/UniPot/Sticker C Yellow.jpg" />
+        </div>
+        <div class="col">
+          <img class="img-fluid" src="@/assets/portfolio/UniPot/Sticker B Orange.jpg" />
+        </div>
+        <div class="col">
+          <img class="img-fluid" src="@/assets/portfolio/UniPot/Sticker A Yellow.jpg" />
+        </div>
+        <div class="col">
+          <img class="img-fluid" src="@/assets/portfolio/UniPot/Sticker C Red.jpg" />
+        </div>
+        <div class="col">
+          <img class="img-fluid" src="@/assets/portfolio/UniPot/Sticker B Yellow.jpg" />
+        </div>
+        <div class="col">
+          <img class="img-fluid" src="@/assets/portfolio/UniPot/Sticker A Orange.jpg" />
+        </div>
+      </div>
     </div>
   </div>
 </template>

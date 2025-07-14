@@ -64,7 +64,7 @@ export default {
           id: 'unipot',
           title: 'UniPot',
           intro: 'Description for project two.',
-          img: 'https://placehold.co/1200x600?text=Project+Two',
+          img: 'src/assets/portfolio/UniPot/Thumbnail.jpg',
           tags: ['Development', 'Web'],
           year: 2025,
         },
