@@ -64,7 +64,7 @@ export default {
           id: 'unipot',
           title: 'UniPot',
           intro: 'Description for project two.',
-          img: 'https://raw.githubusercontent.com/kblecc/StaticAsserts/refs/heads/HomePage/portfolio/UniPot/Thumbnail.jpg',
+          img: 'https://raw.githubusercontent.com/kblecc/HomePage/refs/heads/2025/src/assets/portfolio/UniPot/Thumbnail.jpg',
           tags: ['Development', 'Web'],
           year: 2025,
         },

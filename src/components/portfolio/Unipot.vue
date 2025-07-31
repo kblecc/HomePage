@@ -1,7 +1,7 @@
 <template>
-  <div class="work-viewport p-4">
+  <div class="work-viewport">
     <img
-      src="@/assets/portfolio/UniPot/Banner.jpg"
+      src="https://raw.githubusercontent.com/kblecc/HomePage/refs/heads/2025/src/assets/portfolio/UniPot/Banner.jpg"
       class="k-card-img"
       alt="Scenic nature landscape with mountains, lake, and forest during golden hour"
     />
@@ -356,42 +356,42 @@
       <p></p>
       <div class="row row-cols-2 row-cols-lg-4">
         <div class="col">
-          <img class="img-fluid" src="@/assets/portfolio/UniPot/init 0.jpg" />
+          <img class="img-fluid" src="https://raw.githubusercontent.com/kblecc/HomePage/refs/heads/2025/src/assets/portfolio/UniPot/init 0.jpg" />
         </div>
         <div class="col">
-          <img class="img-fluid" src="@/assets/portfolio/UniPot/init 1.jpg" />
+          <img class="img-fluid" src="https://raw.githubusercontent.com/kblecc/HomePage/refs/heads/2025/src/assets/portfolio/UniPot/init 1.jpg" />
         </div>
         <div class="col">
-          <img class="img-fluid" src="@/assets/portfolio/UniPot/init 2.jpg" />
+          <img class="img-fluid" src="https://raw.githubusercontent.com/kblecc/HomePage/refs/heads/2025/src/assets/portfolio/UniPot/init 2.jpg" />
         </div>
         <div class="col">
-          <img class="img-fluid" src="@/assets/portfolio/UniPot/init 3.jpg" />
+          <img class="img-fluid" src="https://raw.githubusercontent.com/kblecc/HomePage/refs/heads/2025/src/assets/portfolio/UniPot/init 3.jpg" />
         </div>
       </div>
-      <img class="img-fluid" src="@/assets/portfolio/UniPot/Logo Symbo Mono V1.jpg" />
+      <img class="img-fluid" src="https://raw.githubusercontent.com/kblecc/HomePage/refs/heads/2025/src/assets/portfolio/UniPot/Logo Symbo Mono V1.jpg" />
       <h5>Initial Version</h5>
       <p>
         In the initial stage, the project was still operating under the original name, 'Poon Choi'.
         To test the ideal style, the first logo was created with the desired primary color palette
         to see how the aesthetic would feel.
       </p>
-      <img class="img-fluid" src="@/assets/portfolio/UniPot/Full Logo V1.jpg" />
+      <img class="img-fluid" src="https://raw.githubusercontent.com/kblecc/HomePage/refs/heads/2025/src/assets/portfolio/UniPot/Full Logo V1.jpg" />
       <div class="row row-cols-2 row-cols-lg-4">
         <div class="col-6">
-          <img class="img-fluid" src="@/assets/portfolio/UniPot/Wordmarks EN V1.jpg" />
+          <img class="img-fluid" src="https://raw.githubusercontent.com/kblecc/HomePage/refs/heads/2025/src/assets/portfolio/UniPot/Wordmarks EN V1.jpg" />
         </div>
         <div class="col">
-          <img class="img-fluid" src="@/assets/portfolio/UniPot/Wordmarks ZH V1.jpg" />
+          <img class="img-fluid" src="https://raw.githubusercontent.com/kblecc/HomePage/refs/heads/2025/src/assets/portfolio/UniPot/Wordmarks ZH V1.jpg" />
         </div>
         <div class="col-6">
-          <img class="img-fluid" src="@/assets/portfolio/UniPot/Square Logo EN V1.jpg" />
+          <img class="img-fluid" src="https://raw.githubusercontent.com/kblecc/HomePage/refs/heads/2025/src/assets/portfolio/UniPot/Square Logo EN V1.jpg" />
         </div>
         <div class="col">
-          <img class="img-fluid" src="@/assets/portfolio/UniPot/Square Logo ZH V1.jpg" />
+          <img class="img-fluid" src="https://raw.githubusercontent.com/kblecc/HomePage/refs/heads/2025/src/assets/portfolio/UniPot/Square Logo ZH V1.jpg" />
         </div>
       </div>
       <h5>Finalized Version</h5>
-      <img class="img-fluid" src="@/assets/portfolio/UniPot/Full Logo V2.jpg" />
+      <img class="img-fluid" src="https://raw.githubusercontent.com/kblecc/HomePage/refs/heads/2025/src/assets/portfolio/UniPot/Full Logo V2.jpg" />
       <p class="text-centered">
         選取了盆菜最具有代表性的三個特質<br />
         「聚」:團圓相聚 「寶」:豐盛的食材 「盆」:盆菜的視覺特點
@@ -406,23 +406,23 @@
       </p>
       <div class="row row-cols-2 row-cols-md-2 row-cols-lg-4">
         <div class="col-6">
-          <img class="img-fluid" src="@/assets/portfolio/UniPot/Wordmarks EN V2a.jpg" />
+          <img class="img-fluid" src="https://raw.githubusercontent.com/kblecc/HomePage/refs/heads/2025/src/assets/portfolio/UniPot/Wordmarks EN V2a.jpg" />
         </div>
         <div class="col">
-          <img class="img-fluid" src="@/assets/portfolio/UniPot/Wordmarks ZH V2.jpg" />
+          <img class="img-fluid" src="https://raw.githubusercontent.com/kblecc/HomePage/refs/heads/2025/src/assets/portfolio/UniPot/Wordmarks ZH V2.jpg" />
         </div>
         <div class="col-6">
-          <img class="img-fluid" src="@/assets/portfolio/UniPot/Square Logo EN V2.jpg" />
+          <img class="img-fluid" src="https://raw.githubusercontent.com/kblecc/HomePage/refs/heads/2025/src/assets/portfolio/UniPot/Square Logo EN V2.jpg" />
         </div>
         <div class="col">
-          <img class="img-fluid" src="@/assets/portfolio/UniPot/Square Logo ZH V2.jpg" />
+          <img class="img-fluid" src="https://raw.githubusercontent.com/kblecc/HomePage/refs/heads/2025/src/assets/portfolio/UniPot/Square Logo ZH V2.jpg" />
         </div>
       </div>
       <h5>Typography</h5>
-      <img class="img-fluid" src="@/assets/portfolio/UniPot/Typography.jpg" />
+      <img class="img-fluid" src="https://raw.githubusercontent.com/kblecc/HomePage/refs/heads/2025/src/assets/portfolio/UniPot/Typography.jpg" />
       <h5>Color Pallet</h5>
-      <img class="img-fluid" src="@/assets/portfolio/UniPot/Moodboard.jpg" />
-      <img class="img-fluid" src="@/assets/portfolio/UniPot/CPAll.png" />
+      <img class="img-fluid" src="https://raw.githubusercontent.com/kblecc/HomePage/refs/heads/2025/src/assets/portfolio/UniPot/Moodboard.jpg" />
+      <img class="img-fluid" src="https://raw.githubusercontent.com/kblecc/HomePage/refs/heads/2025/src/assets/portfolio/UniPot/CPAll.png" />
       <p>
         This palette reflects the colors of Poon Choi’s key ingredients: red (roasted meats), orange
         (seafood), gold (rich sauces), white (rice), and green (vegetables).
@@ -438,7 +438,7 @@
         <br />
         兼具傳統與現代感：用金色與紅色傳遞傳統文化，用綠色與米白色平衡現代簡約感，適合吸引年輕人。
       </p>
-      <img class="img-fluid" src="@/assets/portfolio/UniPot/CPRed.png" />
+      <img class="img-fluid" src="https://raw.githubusercontent.com/kblecc/HomePage/refs/heads/2025/src/assets/portfolio/UniPot/CPRed.png" />
       <p>
         <b>[E83A3A] Prosperity & Passion 吉祥與熱情</b>
         <br />
@@ -454,7 +454,7 @@
         <br />
         文化：代表團圓與熱鬧，與「聚」的概念相符，增強品牌情感聯繫。
       </p>
-      <img class="img-fluid" src="@/assets/portfolio/UniPot/CPOrange.png" />
+      <img class="img-fluid" src="https://raw.githubusercontent.com/kblecc/HomePage/refs/heads/2025/src/assets/portfolio/UniPot/CPOrange.png" />
       <p>
         <b>[FF9B43] Warmth & Energy 溫暖與活力</b>
         <br />
@@ -470,7 +470,7 @@
         <br />
         吸引力：年輕且富有活力的色彩，有助於吸引新世代消費者。
       </p>
-      <img class="img-fluid" src="@/assets/portfolio/UniPot/CPYellow.png" />
+      <img class="img-fluid" src="https://raw.githubusercontent.com/kblecc/HomePage/refs/heads/2025/src/assets/portfolio/UniPot/CPYellow.png" />
       <p>
         <b>[FFBF34] Abundance & Fortune 豐盛與財富</b>
         <br />
@@ -487,7 +487,7 @@
         <br />
         品牌價值：這個顏色能強調盆菜的豐盛感，使品牌更具高端與尊貴感。
       </p>
-      <img class="img-fluid" src="@/assets/portfolio/UniPot/CPWhite.png" />
+      <img class="img-fluid" src="https://raw.githubusercontent.com/kblecc/HomePage/refs/heads/2025/src/assets/portfolio/UniPot/CPWhite.png" />
       <p>
         <b>[FEFAE0] Balance & Elegance 平衡與細緻</b>
         <br />
@@ -503,7 +503,7 @@
         <br />
         品牌感覺：提供乾淨、現代的設計感，能夠與鮮豔色彩形成視覺對比。
       </p>
-      <img class="img-fluid" src="@/assets/portfolio/UniPot/CPGreen.png" />
+      <img class="img-fluid" src="https://raw.githubusercontent.com/kblecc/HomePage/refs/heads/2025/src/assets/portfolio/UniPot/CPGreen.png" />
       <p>
         <b>[386641] Freshness & Tradition 新鮮與傳統</b>
         <br />
@@ -537,20 +537,20 @@
         visually guiding the viewer from the top-layer seafood down to the broth-absorbing white
         radish at the bottom.
       </p>
-      <img class="img-fluid" src="@/assets/portfolio/UniPot/Poster A Draft.jpg" />
+      <img class="img-fluid" src="https://raw.githubusercontent.com/kblecc/HomePage/refs/heads/2025/src/assets/portfolio/UniPot/Poster A Draft.jpg" />
 
       <h6>Poster B</h6>
       <p>
         <b>The Gathering</b> The second poster emphasizes the communal joy of sharing, symbolized by
         multiple pairs of chopsticks interacting with the dish.
       </p>
-      <img class="img-fluid" src="@/assets/portfolio/UniPot/Poster B Draft.jpg" />
+      <img class="img-fluid" src="https://raw.githubusercontent.com/kblecc/HomePage/refs/heads/2025/src/assets/portfolio/UniPot/Poster B Draft.jpg" />
       <h6>Poster C</h6>
       <p>
         The New Generation. The final poster introduces a modern twist, showcasing new ingredients
         favored by a younger palate.
       </p>
-      <img class="img-fluid" src="@/assets/portfolio/UniPot/Poster C Draft.jpg" />
+      <img class="img-fluid" src="https://raw.githubusercontent.com/kblecc/HomePage/refs/heads/2025/src/assets/portfolio/UniPot/Poster C Draft.jpg" />
 
       <h6>Souvenir</h6>
       <p>
@@ -562,22 +562,22 @@
       </p>
       <div class="row row-cols-3">
         <div class="col">
-          <img class="img-fluid" src="@/assets/portfolio/UniPot/PostCard A Draft.jpg" />
+          <img class="img-fluid" src="https://raw.githubusercontent.com/kblecc/HomePage/refs/heads/2025/src/assets/portfolio/UniPot/PostCard A Draft.jpg" />
         </div>
         <div class="col">
-          <img class="img-fluid" src="@/assets/portfolio/UniPot/PostCard B Draft.jpg" />
+          <img class="img-fluid" src="https://raw.githubusercontent.com/kblecc/HomePage/refs/heads/2025/src/assets/portfolio/UniPot/PostCard B Draft.jpg" />
         </div>
         <div class="col">
-          <img class="img-fluid" src="@/assets/portfolio/UniPot/PostCard C Draft.jpg" />
+          <img class="img-fluid" src="https://raw.githubusercontent.com/kblecc/HomePage/refs/heads/2025/src/assets/portfolio/UniPot/PostCard C Draft.jpg" />
         </div>
       </div>
       <p></p>
       <h5>The Final Product</h5>
       <h6>Poster A</h6>
-      <img class="img-fluid" src="@/assets/portfolio/UniPot/Poster A.jpg" />
+      <img class="img-fluid" src="https://raw.githubusercontent.com/kblecc/HomePage/refs/heads/2025/src/assets/portfolio/UniPot/Poster A.jpg" />
 
       <h6>Poster B</h6>
-      <img class="img-fluid" src="@/assets/portfolio/UniPot/Poster B.jpg" />
+      <img class="img-fluid" src="https://raw.githubusercontent.com/kblecc/HomePage/refs/heads/2025/src/assets/portfolio/UniPot/Poster B.jpg" />
       <h6>Souvenir</h6>
       <p>
         To promote the activity of gathering to enjoy Poon Choi, postcards and card stickers are
@@ -586,16 +586,16 @@
       </p>
       <div class="row row-cols-2">
         <div class="col">
-          <img class="img-fluid" src="@/assets/portfolio/UniPot/PostCard A.jpg" />
+          <img class="img-fluid" src="https://raw.githubusercontent.com/kblecc/HomePage/refs/heads/2025/src/assets/portfolio/UniPot/PostCard A.jpg" />
         </div>
         <div class="col">
-          <img class="img-fluid" src="@/assets/portfolio/UniPot/PostCard B.jpg" />
+          <img class="img-fluid" src="https://raw.githubusercontent.com/kblecc/HomePage/refs/heads/2025/src/assets/portfolio/UniPot/PostCard B.jpg" />
         </div>
         <div class="col">
-          <img class="img-fluid" src="@/assets/portfolio/UniPot/PostCard C.jpg" />
+          <img class="img-fluid" src="https://raw.githubusercontent.com/kblecc/HomePage/refs/heads/2025/src/assets/portfolio/UniPot/PostCard C.jpg" />
         </div>
         <div class="col-6">
-          <img class="img-fluid" src="@/assets/portfolio/UniPot/PostCard Back.jpg" />
+          <img class="img-fluid" src="https://raw.githubusercontent.com/kblecc/HomePage/refs/heads/2025/src/assets/portfolio/UniPot/PostCard Back.jpg" />
         </div>
       </div>
       <p>
@@ -605,31 +605,31 @@
       </p>
       <div class="row row-cols-3">
         <div class="col">
-          <img class="img-fluid" src="@/assets/portfolio/UniPot/Sticker C Orange.jpg" />
+          <img class="img-fluid" src="https://raw.githubusercontent.com/kblecc/HomePage/refs/heads/2025/src/assets/portfolio/UniPot/Sticker C Orange.jpg" />
         </div>
         <div class="col">
-          <img class="img-fluid" src="@/assets/portfolio/UniPot/Sticker B Green.jpg" />
+          <img class="img-fluid" src="https://raw.githubusercontent.com/kblecc/HomePage/refs/heads/2025/src/assets/portfolio/UniPot/Sticker B Green.jpg" />
         </div>
         <div class="col">
-          <img class="img-fluid" src="@/assets/portfolio/UniPot/Sticker A Green.jpg" />
+          <img class="img-fluid" src="https://raw.githubusercontent.com/kblecc/HomePage/refs/heads/2025/src/assets/portfolio/UniPot/Sticker A Green.jpg" />
         </div>
         <div class="col">
-          <img class="img-fluid" src="@/assets/portfolio/UniPot/Sticker C Yellow.jpg" />
+          <img class="img-fluid" src="https://raw.githubusercontent.com/kblecc/HomePage/refs/heads/2025/src/assets/portfolio/UniPot/Sticker C Yellow.jpg" />
         </div>
         <div class="col">
-          <img class="img-fluid" src="@/assets/portfolio/UniPot/Sticker B Orange.jpg" />
+          <img class="img-fluid" src="https://raw.githubusercontent.com/kblecc/HomePage/refs/heads/2025/src/assets/portfolio/UniPot/Sticker B Orange.jpg" />
         </div>
         <div class="col">
-          <img class="img-fluid" src="@/assets/portfolio/UniPot/Sticker A Yellow.jpg" />
+          <img class="img-fluid" src="https://raw.githubusercontent.com/kblecc/HomePage/refs/heads/2025/src/assets/portfolio/UniPot/Sticker A Yellow.jpg" />
         </div>
         <div class="col">
-          <img class="img-fluid" src="@/assets/portfolio/UniPot/Sticker C Red.jpg" />
+          <img class="img-fluid" src="https://raw.githubusercontent.com/kblecc/HomePage/refs/heads/2025/src/assets/portfolio/UniPot/Sticker C Red.jpg" />
         </div>
         <div class="col">
-          <img class="img-fluid" src="@/assets/portfolio/UniPot/Sticker B Yellow.jpg" />
+          <img class="img-fluid" src="https://raw.githubusercontent.com/kblecc/HomePage/refs/heads/2025/src/assets/portfolio/UniPot/Sticker B Yellow.jpg" />
         </div>
         <div class="col">
-          <img class="img-fluid" src="@/assets/portfolio/UniPot/Sticker A Orange.jpg" />
+          <img class="img-fluid" src="https://raw.githubusercontent.com/kblecc/HomePage/refs/heads/2025/src/assets/portfolio/UniPot/Sticker A Orange.jpg" />
         </div>
       </div>
     </div>
@@ -639,7 +639,7 @@
 .k-card-img {
   max-width: 100%;
   height: auto;
-  border-radius: 1rem;
+  border-radius: 2rem;
 }
 .content {
   padding: 2rem;
