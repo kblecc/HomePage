@@ -34,82 +34,87 @@
   </body>
 
   <script>
-    // document.addEventListener('contextmenu', event => event.preventDefault());
+
+
     function mouseFollow() {
+      const body = document.querySelector('body')
       console.log(window.innerWidth)
+      let isHovering = false
       const element = document.getElementById('g-pointer-1')
       const element2 = document.getElementById('g-pointer-2')
-      if (window.innerWidth >= 991) {
-        const body = document.querySelector('body')
+      const a = (event) => {
+        const target = event.target
 
+        if (target.classList.contains('m-element')) {
+          isHovering = true
+
+          const rect = target.getBoundingClientRect()
+          const style = window.getComputedStyle(target)
+
+          element2.style.width = `${rect.width + 20}px`
+          element2.style.height = `${rect.height + 20}px`
+          element2.style.borderRadius = `${style.borderRadius}`
+          element2.style.transform = `translate(${rect.left - 10}px, ${rect.top - 10}px)`
+          element2.style.opacity = 0
+        }
+      }
+      const b = (event) => {
+        const target = event.target
+        if (target.classList.contains('m-element')) {
+          isHovering = false
+
+          // 样式复原
+          element2.style.width = `42px`
+          element2.style.height = `42px`
+          element2.style.borderRadius = `42px`
+          element2.style.opacity = 0.5
+        }
+      }
+      const c = (e) => {
+        window.requestAnimationFrame(function () {
+          setPosition(e.clientX, e.clientY)
+        })
+      }
+      function setPosition(x, y) {
+        console.log('mouse move')
+        window.requestAnimationFrame(function () {
+          element.style.transform = `translate(${x}px, ${y}px)`
+
+          if (!isHovering) {
+            element2.style.transform = `translate(${x}px, ${y}px)`
+          }
+        })
+      }
+
+      if (window.innerWidth >= 991) {
         const halfAlementWidth = element.offsetWidth / 2
         const halfAlementWidth2 = element2.offsetWidth / 2
 
         // 该变量用于跟踪鼠标是否悬停在具有类名为 .g-animation 的元素上
-        let isHovering = false
 
         // 判断元素是否悬停在具有类名为 .g-animation 的元素上
 
-        window.addEventListener('mouseover', (event) => {
-          const target = event.target
-
-          if (target.classList.contains('m-element')) {
-            isHovering = true
-
-            const rect = target.getBoundingClientRect()
-            const style = window.getComputedStyle(target)
-
-            element2.style.width = `${rect.width + 20}px`
-            element2.style.height = `${rect.height + 20}px`
-            element2.style.borderRadius = `${style.borderRadius}`
-            element2.style.transform = `translate(${rect.left - 10}px, ${rect.top - 10}px)`
-            element2.style.opacity = 0
-          }
-        })
+        window.addEventListener('mouseover', a)
 
         // 判断元素是否离开在具有类名为 .g-animation 的元素上
-        window.addEventListener('mouseout', (event) => {
-          const target = event.target
-          if (target.classList.contains('m-element')) {
-            isHovering = false
-
-            // 样式复原
-            element2.style.width = `42px`
-            element2.style.height = `42px`
-            element2.style.borderRadius = `42px`
-            element2.style.opacity = 0.5
-          }
-        })
+        window.addEventListener('mouseout', b)
 
         // 用于控制两个鼠标指针元素
-        body.addEventListener('mousemove', (e) => {
-          window.requestAnimationFrame(function () {
-            setPosition(e.clientX, e.clientY)
-          })
-        })
-
-        function setPosition(x, y) {
-          console.log('mouse move')
-          window.requestAnimationFrame(function () {
-            element.style.transform = `translate(${x}px, ${y}px)`
-
-            if (!isHovering) {
-              element2.style.transform = `translate(${x}px, ${y}px)`
-            }
-          })
-        }
+        body.addEventListener('mousemove', c)
       } else {
-        const body = document.querySelector('body')
 
-        // Remove mousemove event listener from body
-        body.replaceWith(body.cloneNode(true))
+        window.removeEventListener('mouseover', a)
+
+        // 判断元素是否离开在具有类名为 .g-animation 的元素上
+        window.removeEventListener('mouseout', b)
+
+        // 用于控制两个鼠标指针元素
+        body.removeEventListener('mousemove', c)
       }
     }
     mouseFollow()
-    addEventListener('resize', (event) => {})
-    onresize = (event) => {
-      mouseFollow()
-    }
+    window.addEventListener('resize', (event) => { mouseFollow()})
+
   </script>
   <style>
     body {
