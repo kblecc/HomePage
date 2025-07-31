@@ -42,7 +42,7 @@
       </p>
       <h2>Contact</h2>
       <div class="row row-cols-1 row-cols-md-2">
-        <div class="col">
+        <div class="col" @click="this.redirect('mailto:info@kble.cc')">
           <div class="k-card p-3">
             <div class="d-flex justify-content-between">
               <div class="d-flex flex-row align-items-center">
@@ -71,7 +71,7 @@
             </div>
           </div>
         </div>
-        <div class="col">
+        <!-- <div class="col">
           <div class="k-card p-3">
             <div class="d-flex justify-content-between">
               <div class="d-flex flex-row align-items-center">
@@ -99,12 +99,12 @@
               </div>
             </div>
           </div>
-        </div>
+        </div> -->
       </div>
 
       <h2>Social Media</h2>
       <div class="row row-cols-1 row-cols-md-2">
-        <div class="col">
+        <div class="col" @click="this.redirect('https://www.instagram.com/kblecc')">
           <div class="k-card p-3">
             <div class="d-flex justify-content-between">
               <div class="d-flex flex-row align-items-center">
@@ -127,13 +127,13 @@
                 </div>
                 <div class="ms-3 c-details">
                   <p class="mb-0 fw-bold">Instagram</p>
-                  <p class="mb-0 text-muted">info@kble.cc</p>
+                  <p class="mb-0 text-muted">kblecc</p>
                 </div>
               </div>
             </div>
           </div>
         </div>
-        <div class="col">
+        <div class="col" @click="this.redirect('https://www.threads.com/kblecc')">
           <div class="k-card p-3">
             <div class="d-flex justify-content-between">
               <div class="d-flex flex-row align-items-center">
@@ -196,6 +196,18 @@
   </div>
 </template>
 
+<script>
+export default {
+  name: 'AboutView',
+  data() {
+    return {}
+  },methods: {
+    // Use this method to redirect to a URL
+  redirect(url) {
+    window.location.href = url
+  },}
+}
+</script>
 <style scoped>
 .k-title-card {
   border-radius: 2rem;
