@@ -12,13 +12,22 @@
 
         <div class="modal-body">
           <div v-if="id === 'hiaaui'"><HearIAmAppUI></HearIAmAppUI></div>
-          <div v-if="id === 'unipot'"><Unipot></Unipot></div>
+          <div v-else-if="id === 'unipot'"><Unipot></Unipot></div>
+          <div v-else-if="id === 'grantnexus'"><GrantNexus></GrantNexus></div>
+          <div v-else-if="id === 'easybrew'"><EASYBREW></EASYBREW></div>
+          <div v-else-if="id === 'hiaweb'"><GrantNexus></GrantNexus></div>
+          <div v-else-if="id === 'space'"><GrantNexus></GrantNexus></div>
+          <div v-else-if="id === 'mappingipa'"><GrantNexus></GrantNexus></div>
+          <div v-else-if="id === 'japtify'"><GrantNexus></GrantNexus></div>
+          <div v-else>No Portfolio Found</div>
         </div>
       </div>
     </div>
   </div>
 </template>
 <script>
+import EASYBREW from './portfolio/EASYBREW.vue'
+import GrantNexus from './portfolio/GrantNexus.vue'
 import HearIAmAppUI from './portfolio/HearIAmAppUI.vue'
 import Unipot from './portfolio/Unipot.vue'
 export default {
@@ -30,6 +39,8 @@ export default {
   components: {
     HearIAmAppUI,
     Unipot,
+    GrantNexus,
+    EASYBREW
   },
   computed: {
     targetID() {
@@ -42,29 +53,7 @@ export default {
 }
 </script>
 <style scoped>
-.k-card {
-  border-radius: 1rem;
-  margin: 0.5rem;
-  padding: 0;
-  background-color: rgba(var(--bs-tertiary-bg-rgb), 1) !important;
-  border-radius: 2rem;
-  transition: cubic-bezier(0.075, 0.82, 0.165, 1) 0.3s;
-}
 
-.k-card:hover {
-  transform: scale(1.04);
-}
-
-.k-card-img {
-  width: 100%;
-  height: auto;
-  border-radius: 2rem;
-}
-.k-tags-container {
-  display: flex;
-  gap: 0.5rem;
-  margin: 0.5rem 0;
-}
 
 .modal-dialog {
   max-width: 100vw;
@@ -80,6 +69,7 @@ export default {
   max-height: 95vh;
 }
 .modal-body {
+   border-radius: 2rem;
   padding: 0;
   overflow-x: hidden;
   overflow-y: scroll;
@@ -87,12 +77,9 @@ export default {
   -ms-overflow-style: none; /* IE and Edge */
 }
 
-
 .modal-body::-webkit-scrollbar {
   display: none; /* Chrome, Safari, Opera */
 }
-
-
 
 .btn-close {
   position: absolute;
@@ -113,5 +100,4 @@ export default {
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
   z-index: 10;
 }
-
 </style>
