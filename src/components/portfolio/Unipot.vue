@@ -1,11 +1,11 @@
 <template>
-  <div class="work-viewport">
+
     <img
       src="https://raw.githubusercontent.com/kblecc/HomePage/refs/heads/2025/src/assets/portfolio/UniPot/Banner.jpg"
       class="k-card-img"
       alt="Scenic nature landscape with mountains, lake, and forest during golden hour"
     />
-  </div>
+
   <div class="content">
     <h3 class="mb-1 fw-bold">UniPot</h3>
     <div class="k-tags-container">
