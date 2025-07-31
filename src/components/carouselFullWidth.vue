@@ -14,7 +14,7 @@
     >
       <div class="slide" v-for="(slide, index) in slides" :key="index">
         <div class="slide-div">
-          <img :src="slide.image" :alt="slide.alt" class="slide-image" />
+          <img :src="slide.img" :alt="slide.alt" class="slide-image" />
           <div class="slide-content">
             <h2>{{ slide.title }}</h2>
             <p>{{ slide.description }}</p>
