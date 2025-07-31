@@ -4,25 +4,25 @@
       <carousel
         :slides="[
           {
-            image: 'https://placehold.co/1200x600?text=Nature+Landscape',
+            img: 'https://placehold.co/1200x600?text=Nature+Landscape',
             alt: 'Scenic nature landscape with mountains, lake, and forest during golden hour',
             title: 'Beautiful Nature',
             description: 'Explore the wonders of the natural world in their full glory.',
           },
           {
-            image: 'https://placehold.co/1200x600?text=Modern+Architecture',
+            img: 'https://placehold.co/1200x600?text=Modern+Architecture',
             alt: 'Contemporary city skyline with glass skyscrapers reflecting sunlight',
             title: 'Urban Architecture',
             description: 'Modern architectural marvels from around the globe.',
           },
           {
-            image: 'https://placehold.co/1200x600?text=Ocean+Adventure',
+            img: 'https://placehold.co/1200x600?text=Ocean+Adventure',
             alt: 'Turquoise ocean waves crashing on white sandy beach with palm trees',
             title: 'Ocean Paradise',
             description: 'Discover the most breathtaking beaches and marine life.',
           },
           {
-            image: 'https://placehold.co/1200x600?text=Mountain+Expedition',
+            img: 'https://placehold.co/1200x600?text=Mountain+Expedition',
             alt: 'Snow-capped mountain peaks under clear blue sky with hikers in foreground',
             title: 'Mountain Peaks',
             description: 'Conquer the highest peaks and enjoy stunning views.',
