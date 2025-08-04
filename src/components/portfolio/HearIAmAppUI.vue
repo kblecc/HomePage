@@ -1,11 +1,9 @@
 <template>
-  <div class="work-viewport">
-    <img
-      src="https://placehold.co/1200x600?text=Nature+Landscape"
+  <img
+      src="https://raw.githubusercontent.com/kblecc/HomePage/refs/heads/2025/src/assets/portfolio/HearIamAppUI/Banner.jpg"
       class="k-card-img"
       alt="Scenic nature landscape with mountains, lake, and forest during golden hour"
     />
-  </div>
   <div class="description">
     <div class="p-4 c-details">
       <h3 class="mb-0 fw-bold">Hear i am App UI - v3</h3>
@@ -55,4 +53,11 @@ iframe {
   overflow: hidden;
   width: 100%;
 }
+.k-card-img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 2rem;
+}
 </style>
+
+

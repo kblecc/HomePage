@@ -70,7 +70,7 @@ export default {
         },
         {
           id: 'hiaaui',
-          img: 'https://placehold.co/1200x600?text=Hear+i+am+App+UI',
+          img: 'https://raw.githubusercontent.com/kblecc/HomePage/refs/heads/2025/src/assets/portfolio/HearIamAppUI/Thumbnail.jpg',
           title: 'Hear i am App UI - v3',
           tags: ['Design', 'UI'],
           intro: 'Hear i am is a mobie application for music therapy combined with mental care',
@@ -143,11 +143,12 @@ export default {
 }
 .k-card {
   border-radius: 1rem;
-  margin: 0.5rem;
+  margin: 0,0,1rem,0;
   padding: 0;
   background-color: rgba(var(--bs-tertiary-bg-rgb), 1) !important;
   border-radius: 2rem;
   transition: cubic-bezier(0.075, 0.82, 0.165, 1) 0.3s;
+
 }
 .k-card:hover {
   transform: scale(1.04);
