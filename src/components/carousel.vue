@@ -15,7 +15,7 @@
       <div class="slide" v-for="(slide, index) in slides" :key="index">
         <div class="slide-div">
           <img :src="slide.img" :alt="slide.alt" class="slide-image" />
-          <div class="slide-content">
+          <div v-if="slide.title || slide.description" class="slide-content">
             <h2>{{ slide.title }}</h2>
             <p>{{ slide.description }}</p>
           </div>
@@ -171,7 +171,7 @@ img {
 .slide-div {
   min-width: 100%;
   position: relative;
-  border-radius: 3rem;
+  border-radius: 1.5rem;
   overflow: hidden;
 }
 
@@ -179,7 +179,7 @@ img {
   width: 100%;
   height: auto;
   display: block;
-  aspect-ratio: 16/9;
+
   background-color: #ddd;
 }
 
