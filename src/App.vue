@@ -7,7 +7,7 @@ import { RouterLink, RouterView } from 'vue-router'
     <nav class="navbar navbar-expand-lg">
       <div class="container-fluid">
         <div class="k-nav-brand bg-body-tertiary">
-          <RouterLink class="navbar-brand" to="/">Navbar</RouterLink>
+          <RouterLink class="navbar-brand" to="/">kbleCC</RouterLink>
         </div>
 
         <button
