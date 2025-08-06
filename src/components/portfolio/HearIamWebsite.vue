@@ -17,7 +17,7 @@
 
     <img
       class="k-content-image"
-      src="https://raw.githubusercontent.com/kblecc/HomePage/refs/heads/2025/src/assets/portfolio/HearIamWebsite/Screenshot.jpg"
+      src="https://raw.githubusercontent.com/kblecc/HomePage/refs/heads/2025/src/assets/portfolio/HearIamWebsite/Screenshot.png"
     />
   </div>
 </template>
