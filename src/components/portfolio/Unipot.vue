@@ -21,7 +21,7 @@
       <p>
         This page outlines the creative process behind the UniPot project, detailing the journey
         from initial concept and styling to the final poster and souvenir design. The process was
-        driven by the goal of rebranding the traditional Hong Kong dish, Poon Choi, for a new
+        driven by the goal of rebranding the Hong Kong Intangible Cultural Heritage, Poon Choi, for a new
         generation.
       </p>
 
