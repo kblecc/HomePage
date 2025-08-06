@@ -4,12 +4,22 @@
       class="k-card-img"
       alt="Scenic nature landscape with mountains, lake, and forest during golden hour"
     />
-<img class="img-fluid" src="https://raw.githubusercontent.com/kblecc/HomePage/refs/heads/2025/src/assets/portfolio/Easybrew/Instruction.png">
-<img class="img-fluid" src="https://raw.githubusercontent.com/kblecc/HomePage/refs/heads/2025/src/assets/portfolio/Easybrew/Packaging Sticker.jpg">
+    <div class="content">
+      <h3 class="mb-1 fw-bold">Easybrew</h3>
+      <div class="k-tags-container">
+        <span class="badge rounded-pill text-bg-primary">Design</span>
+        <span class="badge rounded-pill text-bg-primary">UI</span>
+      </div>
+
+      <p class="mb-0 text-muted">
+        Easybrew is a mobile application designed to simplify the process of brewing coffee at home, providing users with step-by-step instructions and customizable settings.
+      </p>
+<img class="k-content-image" src="https://raw.githubusercontent.com/kblecc/HomePage/refs/heads/2025/src/assets/portfolio/Easybrew/Instruction.png">
+<img class="k-content-image" src="https://raw.githubusercontent.com/kblecc/HomePage/refs/heads/2025/src/assets/portfolio/Easybrew/Packaging Sticker.jpg">
  <div class="row row-cols-3 row-cols-xs-1">
-  <div class="col"><img class="img-fluid" src="https://raw.githubusercontent.com/kblecc/HomePage/refs/heads/2025/src/assets/portfolio/Easybrew/Warning JP.jpg"></div>
- <div class="col"><img class="img-fluid" src="https://raw.githubusercontent.com/kblecc/HomePage/refs/heads/2025/src/assets/portfolio/Easybrew/Warning EN.jpg"></div>
-<div class="col"><img class="img-fluid" src="https://raw.githubusercontent.com/kblecc/HomePage/refs/heads/2025/src/assets/portfolio/Easybrew/Warning ZH.jpg"></div>
+  <div class="col"><img class="k-content-image" src="https://raw.githubusercontent.com/kblecc/HomePage/refs/heads/2025/src/assets/portfolio/Easybrew/Warning JP.jpg"></div>
+ <div class="col"><img class="k-content-image" src="https://raw.githubusercontent.com/kblecc/HomePage/refs/heads/2025/src/assets/portfolio/Easybrew/Warning EN.jpg"></div>
+<div class="col"><img class="k-content-image" src="https://raw.githubusercontent.com/kblecc/HomePage/refs/heads/2025/src/assets/portfolio/Easybrew/Warning ZH.jpg"></div>
 </div>
 <carousel
         :slides="[
@@ -33,7 +43,7 @@
 {'img':'https://raw.githubusercontent.com/kblecc/HomePage/refs/heads/2025/src/assets/portfolio/Easybrew/Doc/125.jpg'}
 
         ]"
-      />
+      /></div>
 </template>
 <script>
 import carousel from '../carousel.vue';
@@ -49,5 +59,13 @@ carousel,
   height: auto;
   border-radius: 2rem;
 }
-
+.content {
+  padding: 2rem;
+}
+.k-content-image {
+  width: 100%;
+  height: auto;
+  border-radius: 1rem;
+  margin-bottom: 1.5rem;
+}
 </style>
