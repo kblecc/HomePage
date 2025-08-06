@@ -7,14 +7,7 @@
       name="viewport"
       content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no"
     />
-    <link rel="apple-touch-icon" sizes="180x180" href="./favico/apple-touch-icon.png" />
-    <link rel="icon" type="image/png" sizes="32x32" href="./favico/favicon-32x32.png" />
-    <link rel="icon" type="image/png" sizes="16x16" href="./favico/favicon-16x16.png" />
-    <link rel="manifest" href="./favico/site.webmanifest" />
-    <!-- <script
-      type="text/javascript"
-      src="https://cdn.jsdelivr.net/npm/ipad-cursor-js@latest/index.js"
-    ></script> -->
+   
 
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -24,7 +17,12 @@
     />
 
     <script src="https://unpkg.com/feather-icons"></script>
-    <link rel="icon" href="/favicon.ico" />
+    <link rel="icon" type="image/png" href="./favicon-96x96.png" sizes="96x96" />
+    <link rel="icon" type="image/svg+xml" href="./favicon.svg" />
+    <link rel="shortcut icon" href="./favicon.ico" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+    <meta name="apple-mobile-web-app-title" content="kbleCC" />
+    <link rel="manifest" href="./site.webmanifest" />
   </head>
   <body>
     <div id="app"></div>
@@ -34,8 +32,6 @@
   </body>
 
   <script>
-
-
     function mouseFollow() {
       const body = document.querySelector('body')
       console.log(window.innerWidth)
@@ -102,7 +98,6 @@
         // 用于控制两个鼠标指针元素
         body.addEventListener('mousemove', c)
       } else {
-
         window.removeEventListener('mouseover', a)
 
         // 判断元素是否离开在具有类名为 .g-animation 的元素上
@@ -113,8 +108,9 @@
       }
     }
     mouseFollow()
-    window.addEventListener('resize', (event) => { mouseFollow()})
-
+    window.addEventListener('resize', (event) => {
+      mouseFollow()
+    })
   </script>
   <style>
     body {
