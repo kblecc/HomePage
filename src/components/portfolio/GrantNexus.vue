@@ -5,15 +5,14 @@
     alt="Scenic nature landscape with mountains, lake, and forest during golden hour"
   />
   <div class="content">
-    <!-- <h3 class="mb-1 fw-bold">Grant Nexus</h3>
+    <h3 class="mb-1 fw-bold">Grant Nexus</h3>
     <div class="k-tags-container">
       <span class="badge rounded-pill text-bg-primary">Design</span>
-      <span class="badge rounded-pill text-bg-primary">UI</span>
+      <span class="badge rounded-pill text-bg-primary">Branding</span>
+      <span class="badge rounded-pill text-bg-primary">Graphic</span>
     </div>
 
-    <p class="mb-0 text-muted">
-      Hear i am is a mobie application for music therapy combined with mental care
-    </p> -->
+    <p class="mb-0 text-muted">Branding design for a government grant consulting alliance</p>
 
     <img
       class="k-content-image"
