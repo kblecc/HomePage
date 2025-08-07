@@ -15,7 +15,7 @@
       </h2>
       <p>
         I do all kind of stuff, mini projects and learn from them.<br />
-        Fell free to look around, hope that you would get to know more about me and find something
+        Feel free to look around, hope that you would get to know more about me and find something
         useful.
       </p>
     </div>
