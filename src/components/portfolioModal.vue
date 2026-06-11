@@ -11,29 +11,14 @@
         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
 
         <div class="modal-body">
-          <div v-if="id === 'hiaaui'"><HearIAmAppUI></HearIAmAppUI></div>
-          <div v-else-if="id === 'unipot'"><Unipot></Unipot></div>
-          <div v-else-if="id === 'grantnexus'"><GrantNexus></GrantNexus></div>
-          <div v-else-if="id === 'easybrew'"><EASYBREW></EASYBREW></div>
-          <div v-else-if="id === 'hiaweb'"><HearIamWebsite></HearIamWebsite></div>
-          <div v-else-if="id === 'space'"><GrantNexus></GrantNexus></div>
-          <div v-else-if="id === 'mappingipa'">
-            <MappingForInternetPrivacyAndAdvertising></MappingForInternetPrivacyAndAdvertising>
-          </div>
-          <div v-else-if="id === 'japtify'"><GrantNexus></GrantNexus></div>
-          <div v-else>No Portfolio Found</div>
+
         </div>
       </div>
     </div>
   </div>
 </template>
 <script>
-import EASYBREW from './portfolio/EASYBREW.vue'
-import GrantNexus from './portfolio/GrantNexus.vue'
-import HearIAmAppUI from './portfolio/HearIamAppUI.vue'
-import MappingForInternetPrivacyAndAdvertising from './portfolio/MappingForInternetPrivacyAndAdvertising.vue'
-import Unipot from './portfolio/Unipot.vue'
-import HearIamWebsite from './portfolio/HearIamWebsite.vue'
+
 export default {
   name: 'PortfolioCard',
   props: ['id'],

@@ -1,6 +1,6 @@
 <template>
   <div class="col">
-    <div class="k-card" data-bs-toggle="modal" data-bs-target="#detailModal">
+    <div class="k-card">
       <img
         :src="img"
         class="k-card-img"
@@ -9,7 +9,7 @@
       <div class="d-flex justify-content-between">
         <div class="d-flex flex-row align-items-center">
           <div class="p-4 c-details">
-            <h3 class="mb-0 fw-bold">{{ this.title }}</h3>
+            <h3 class="mb-0 ">{{ this.title }}</h3>
             <div class="k-tags-container">
               <span class="badge rounded-pill text-bg-primary" v-for="tag in tags" :key="tag">{{
                 tag
@@ -48,7 +48,7 @@ export default {
   border-radius: 1rem;
   margin: 0.5rem;
   padding: 0;
-  background-color: rgba(var(--bs-tertiary-bg-rgb), 1) !important;
+   background-color: #2a2a2a;
   border-radius: 2rem;
   transition: cubic-bezier(0.075, 0.82, 0.165, 1) 0.3s;
 }
