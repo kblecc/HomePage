@@ -1,0 +1,480 @@
+{
+  "device_name": "Xiaomi Redmi Note 12 Turbo",
+  "specs": {
+    "Brand": {
+      "Brand": "Xiaomi",
+      "Aliases": "23049RAD8C"
+    },
+    "Release Date": {
+      "Release date": {
+        "year": "2023",
+        "month": "March"
+      }
+    },
+    "Related": {
+      "Predecessor": [
+        "Xiaomi Redmi Note 11T 5G"
+      ],
+      "Similar name": [
+        "Xiaomi Redmi Note 12 5G",
+        "Xiaomi Redmi Note 12 Pro 5G",
+        "Xiaomi Redmi Note 12 Pro+ 5G",
+        "Xiaomi Redmi Note 12 Pro Speed Edition",
+        "Xiaomi Redmi Note 12 4G",
+        "Xiaomi Redmi Note 12 Pro 4G",
+        "Xiaomi Redmi Note 12S",
+        "Xiaomi Redmi Note 12T Pro",
+        "Xiaomi Redmi Note 12R",
+        "Xiaomi Redmi Note 12R Pro"
+      ]
+    },
+    "Image gallery": {
+      "Image gallery": []
+    },
+    "Structure": {
+      "Size": {
+        "w": "74.9",
+        "h": "161.1",
+        "t": "7.9"
+      },
+      "Weight": "181 g",
+      "Usable surface": "89 %",
+      "Materials": [
+        "Polycarbonate",
+        "Glass"
+      ],
+      "Resistance certificates (dust, water)": "IP53",
+      "Colors": "Black Silver Storm Opal White"
+    },
+    "Screen": {
+      "Diagonal": "6.67\"",
+      "Type": "Oled",
+      "Aspect Ratio": "20:9",
+      "Resolution": [
+        "1080 x 2400 px",
+        "FHD+"
+      ],
+      "Density": [
+        "402 ppi",
+        "Very high density"
+      ],
+      "Others": [
+        "Hole-punch Notch",
+        "SGS Certified",
+        "1-120 Hz refresh rate",
+        "1920 Hz PWM",
+        "Refresh rate 120 Hz",
+        "Touch sampling rate 240 Hz",
+        "Max brightness HBM - 1000 cd/m²",
+        "5000000:1 contrast ratio",
+        "HDR10+",
+        "DCI-P3",
+        "sRGB standard",
+        "12 Bits panel (10-bit +2-bit FRC)",
+        "Dolby Vision",
+        "2.5D curved glass screen",
+        "Capacitive",
+        "Multi-touch",
+        "Frameless"
+      ]
+    },
+    "Processor": {
+      "Model": "Qualcomm Snapdragon 7+ Gen2",
+      "CPU": "1x2.91GHz Cortex X2 + 3x2.49GHz Cortex A710 + 4x1.80GHz Cortex A510",
+      "Type": "Octa-Core",
+      "Nanometer": "4 nm",
+      "Frequency": "2.91 GHz",
+      "64 Bits": true
+    },
+    "Graphics": {
+      "GPU": "Adreno 725"
+    },
+    "RAM": {
+      "RAM": "12 GB",
+      "Type": "RAM LPDDR5"
+    },
+    "Antutu": {
+      "Score": {
+        "score": 1110345,
+        "version": "v10",
+        "percent": 86
+      }
+    },
+    "Storage": {
+      "Capacity": "256 GB",
+      "Type": "UFS Storage 3.1",
+      "SD Slot": false
+    },
+    "Security": {
+      "Fingerprint": [
+        true,
+        "on the side"
+      ]
+    },
+    "Sensors": {
+      "Fingerprint": true,
+      "Proximity": true,
+      "Light sensor": true,
+      "Accelerometer": true,
+      "Compass": true,
+      "Gyroscope": true,
+      "Audio": [
+        "Dolby Atmos",
+        "Hi-Res Audio",
+        "Noise cancellation microphone",
+        "Stereo Speakers",
+        "2 microphones"
+      ],
+      "Notifications LED": "--",
+      "Cooling system": true,
+      "Gaming buttons": false,
+      "Extra": [
+        "3725mm² super diffusion conduction VC vapor chamber"
+      ]
+    },
+    "Triple rear camera": {
+      "Standard": {
+        "Resolution": "64 Mpx",
+        "Aperture": "ƒ/ 1.8",
+        "Sensor": "Omnivision OV64B",
+        "Type": "CMOS",
+        "Sensor size": "1/2\"",
+        "Pixel size": "0.70 µm",
+        "Pixel Binning": "1-4 (2x2)"
+      },
+      "Wide Angle lens": {
+        "Resolution": "8 Mpx",
+        "Aperture": "ƒ/ 2.2",
+        "Sensor": "Sony IMX355",
+        "Type": "CMOS BSI",
+        "Sensor size": "1/2.8\"",
+        "Pixel size": "1.12 µm"
+      },
+      "Macro lens": {
+        "Resolution": "2 Mpx",
+        "Aperture": "ƒ/ 2.4",
+        "Sensor": "GalaxyCore GC02M1",
+        "Type": "CMOS",
+        "Sensor size": "1/5\"",
+        "Pixel size": "1.75 µm"
+      },
+      "Flash": "Dual LED",
+      "Optical Stabilisation": true,
+      "Slow Motion Video": [
+        true,
+        "960 fps"
+      ],
+      "Features": [
+        "4K Video",
+        "Digital zoom",
+        "Triple camera",
+        "Digital image stabilization",
+        "Optical Stabilization (OIS)",
+        "Autofocus",
+        "Touch focus",
+        "Continuous autofocus",
+        "Manual focus",
+        "Phase detection autofocus (PDAF)",
+        "Continuous shooting",
+        "Geotagging",
+        "Panorama",
+        "HDR",
+        "Face detection",
+        "White balance settings",
+        "ISO settings",
+        "Exposure compensation",
+        "Scene mode",
+        "Self-timer",
+        "Front Flash",
+        "Night Mode"
+      ]
+    },
+    "Selfie": {
+      "Resolution": "16 Mpx",
+      "Aperture": "ƒ/ 2.27",
+      "Sensor": "Samsung S5K3P9",
+      "Type": "ISOCELL",
+      "Sensor size": "1/3.1\"",
+      "Pixel size": "1.12 µm",
+      "Pixel Binning": "1-4 (2x2)"
+    },
+    "General": {
+      "3 (Three)": [
+        "5G 3 of 5",
+        "n78 (3500)",
+        "n79 (4700)",
+        "n28a (700)",
+        "n1 (2100)",
+        "n28b (700)",
+        "4G 4 of 5",
+        "B1 (2100)",
+        "B3 (1800)",
+        "B7 (2600)",
+        "B8 (900)",
+        "B40 (TDD 2300)",
+        "3G All (2)",
+        "B1 (2100)",
+        "B8 (900)",
+        "2G Not available"
+      ],
+      "CHMK": [
+        "5G 3 of 6",
+        "n78 (3500)",
+        "n79 (4700)",
+        "n258 mmWave (26GHz)",
+        "n28a (700)",
+        "n1 (2100)",
+        "n28b (700)",
+        "4G 4 of 5",
+        "B1 (2100)",
+        "B3 (1800)",
+        "B7 (2600)",
+        "B8 (900)",
+        "B40 (TDD 2300)",
+        "3G Not available",
+        "2G Not available"
+      ],
+      "HKT / CSL": [
+        "5G 2 of 4",
+        "n78 (3500)",
+        "n258 mmWave (26GHz)",
+        "n1 (2100)",
+        "n28b (700)",
+        "4G 3 of 4",
+        "B1 (2100)",
+        "B3 (1800)",
+        "B7 (2600)",
+        "B8 (900)",
+        "3G All (2)",
+        "B1 (2100)",
+        "B8 (900)",
+        "2G Not available"
+      ],
+      "SmarTone": [
+        "5G 3 of 5",
+        "n78 (3500)",
+        "n258 mmWave (26GHz)",
+        "n1 (2100)",
+        "n5 (850)",
+        "n28b (700)",
+        "4G 4 of 5",
+        "B1 (2100)",
+        "B3 (1800)",
+        "B7 (2600)",
+        "B8 (900)",
+        "B40 (TDD 2300)",
+        "3G All (2)",
+        "B1 (2100)",
+        "B5 (850)",
+        "2G Not available"
+      ]
+    },
+    "Bands": {
+      "5G": [
+        {
+          "band": "1",
+          "freq": "2100"
+        },
+        {
+          "band": "3",
+          "freq": "1800"
+        },
+        {
+          "band": "5",
+          "freq": "850"
+        },
+        {
+          "band": "8",
+          "freq": "900"
+        },
+        {
+          "band": "28a",
+          "freq": "700"
+        },
+        {
+          "band": "38",
+          "freq": "2600"
+        },
+        {
+          "band": "41",
+          "freq": "2500"
+        },
+        {
+          "band": "77",
+          "freq": "3700"
+        },
+        {
+          "band": "78",
+          "freq": "3500"
+        }
+      ],
+      "4G LTE": [
+        {
+          "band": "1",
+          "freq": "2100"
+        },
+        {
+          "band": "3",
+          "freq": "1800"
+        },
+        {
+          "band": "5",
+          "freq": "850"
+        },
+        {
+          "band": "8",
+          "freq": "900"
+        },
+        {
+          "band": "19",
+          "freq": "800"
+        },
+        {
+          "band": "34",
+          "freq": "TDD 2100"
+        },
+        {
+          "band": "38",
+          "freq": "TDD 2600"
+        },
+        {
+          "band": "39",
+          "freq": "TDD 1900"
+        },
+        {
+          "band": "40",
+          "freq": "TDD 2300"
+        },
+        {
+          "band": "41",
+          "freq": "TDD 2500"
+        },
+        {
+          "band": "42",
+          "freq": "TDD 3500"
+        }
+      ],
+      "3G": [
+        {
+          "band": "1",
+          "freq": "2100"
+        },
+        {
+          "band": "5",
+          "freq": "850"
+        },
+        {
+          "band": "6",
+          "freq": "800"
+        },
+        {
+          "band": "8",
+          "freq": "900"
+        },
+        {
+          "band": "19",
+          "freq": "800"
+        }
+      ],
+      "2G": [
+        {
+          "band": "C10",
+          "freq": "800 Secondary"
+        },
+        {
+          "band": "2",
+          "freq": "1900"
+        },
+        {
+          "band": "3",
+          "freq": "1800"
+        },
+        {
+          "band": "5",
+          "freq": "850"
+        },
+        {
+          "band": "8",
+          "freq": "900"
+        }
+      ]
+    },
+    "SIM card": {
+      "Type": "Dual SIM Dual Standby (Nano SIM + Nano SIM)"
+    },
+    "Wi-Fi": {
+      "Standards": [
+        "a",
+        "b",
+        "g",
+        "n",
+        "ac",
+        "ax"
+      ],
+      "Others": [
+        "Dual band",
+        "Wi-Fi Hotspot",
+        "Wi-Fi Direct",
+        "Wi-Fi Display",
+        "Wi-Fi MiMO"
+      ]
+    },
+    "Bluetooth": {
+      "Version": "Bluetooth 5.3 LELow energy consumption",
+      "Profiles": [
+        "A2DP (Advanced Audio Distribution Profile)",
+        "EDR (Enhanced Data Rate)",
+        "LE (Low Energy)",
+        "APT-x",
+        "LDAC",
+        "SBC",
+        "AAC"
+      ]
+    },
+    "Navigation": {
+      "Supports": [
+        "GPS",
+        "A-GPS",
+        "GLONASS",
+        "Beidou",
+        "QZSS",
+        "Galileo",
+        "BeiDou (B1)"
+      ]
+    },
+    "USB": {
+      "Charging": true,
+      "Mass Storage": true,
+      "USB On-The-Go (OTG)": true,
+      "USB Type C": true,
+      "--": "--",
+      "NFC": true,
+      "Audio Jack": true,
+      "Radio FM": false,
+      "Computer sync": true,
+      "OTA sync": true,
+      "Infrared": true,
+      "Tethering.": true,
+      "VoLTE": true
+    },
+    "Battery of Xiaomi Redmi Note 12 Turbo": {
+      "Capacity": "5000 mAh",
+      "Type": "Li-Polymer",
+      "Fast charge": [
+        true,
+        "67.0W"
+      ],
+      "Others": [
+        "Non-removable"
+      ]
+    },
+    "Software": {
+      "Operating System": "Android 13 Tiramisu MIUI 14 (Android 13)",
+      "Google Services": "Without Google Mobile services",
+      "Updates": [
+        "OS updates: 2 years",
+        "Security updates: 2 years"
+      ]
+    }
+  }
+}

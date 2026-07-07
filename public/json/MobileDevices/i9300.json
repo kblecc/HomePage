@@ -1,0 +1,212 @@
+{
+  "device_name": "Samsung Galaxy S3",
+  "specs": {
+    "Brand": {
+      "Brand": "Samsung",
+      "Aliases": "Galaxy S III, I9300"
+    },
+    "Release Date": {
+      "Release date": {
+        "year": "2012",
+        "month": "May"
+      }
+    },
+    "Image gallery": {
+      "Image gallery": ""
+    },
+    "Structure": {
+      "Size": {
+        "w": "70.6",
+        "h": "136.6",
+        "t": "9.0"
+      },
+      "Weight": "133 g",
+      "Usable surface": "66 %"
+    },
+    "Screen": {
+      "Diagonal": "4.8\"",
+      "Type": "Super AMOLED",
+      "Aspect Ratio": "16:9",
+      "Resolution": "720 x 1280 px , HD",
+      "Density": "306 ppi , High Density",
+      "Others": [
+        "Without Notch",
+        "LED Notifications",
+        "Scratch resistant",
+        "Corning Gorilla Glass 2",
+        "Capacitive",
+        "Multi-touch"
+      ]
+    },
+    "Processor": {
+      "Model": "Samsung Exynos 4 Quad 4412",
+      "CPU": "4x Cortex, A9 1.4 GHz",
+      "Type": "Quad-Core",
+      "Nanometer": "32 nm",
+      "Frequency": "1.4 GHz",
+      "64 Bits": false
+    },
+    "Graphics": {
+      "GPU": "ARM Mali-400 MP4"
+    },
+    "RAM": {
+      "RAM": "1 GB",
+      "Type": "--"
+    },
+    "Antutu": {
+      "Score": {
+        "score": 19102,
+        "version": null,
+        "percent": 48
+      }
+    },
+    "Storage": {
+      "Capacity": "16 GB",
+      "SD Slot": "Yes , Independent SD slot"
+    },
+    "Security": {
+      "Fingerprint": false
+    },
+    "Sensors": {
+      "Fingerprint": false,
+      "Proximity": true,
+      "Light sensor": true,
+      "Accelerometer": true,
+      "Compass": true,
+      "Gyroscope": true,
+      "Barometer": true,
+      "Geomagnetic": true,
+      "Notifications LED": "LED Notifications",
+      "Cooling system": false,
+      "Gaming buttons": false
+    },
+    "General": {
+      "Standard": "1",
+      "Resolution": "1.9 Mpx",
+      "Aperture": "ƒ/ --",
+      "Sensor": "--",
+      "Type": "--",
+      "Sensor size": "1/3.2\"",
+      "Pixel size": "--"
+    },
+    "Rear camera": {
+      "Flash": "LED",
+      "Optical Stabilisation": false,
+      "Slow Motion Video": "No, 30 fps",
+      "Features": [
+        "Digital zoom",
+        "Autofocus",
+        "Touch focus",
+        "Continuous shooting",
+        "Geotagging",
+        "Panorama",
+        "HDR",
+        "Face detection",
+        "White balance settings",
+        "ISO settings",
+        "Exposure compensation",
+        "Scene mode",
+        "Self-timer"
+      ]
+    },
+    "Bands": {
+      "3G": [
+        {
+          "band": "1",
+          "freq": "2100"
+        },
+        {
+          "band": "2",
+          "freq": "1900"
+        },
+        {
+          "band": "5",
+          "freq": "850"
+        },
+        {
+          "band": "8",
+          "freq": "900"
+        }
+      ],
+      "2G": [
+        {
+          "band": "2",
+          "freq": "1900"
+        },
+        {
+          "band": "3",
+          "freq": "1800"
+        },
+        {
+          "band": "5",
+          "freq": "850"
+        },
+        {
+          "band": "8",
+          "freq": "900"
+        }
+      ]
+    },
+    "SIM card": {
+      "Type": "Single SIM (Micro SIM)"
+    },
+    "Wi-Fi": {
+      "Standards": [
+        "a",
+        "b",
+        "g",
+        "n"
+      ],
+      "Others": [
+        "Dual band",
+        "Wi-Fi Hotspot",
+        "Wi-Fi Direct"
+      ]
+    },
+    "Bluetooth": {
+      "Version": "Bluetooth 4.0",
+      "Profiles": [
+        "A2DP (Advanced Audio Distribution Profile)",
+        "AVCTP (Audio/Video Control Transport Protocol)",
+        "AVDTP (Audio/Video Distribution Transport Protocol",
+        "AVRCP (Audio/Visual Remote Control Profile)",
+        "BNEP (Bluetooth Network Encapsulation Protocol)",
+        "DIP (Device ID Profile)",
+        "EDR (Enhanced Data Rate)",
+        "GAVDP (Generic Audio/Video Distribution Profile)",
+        "GAP (Generic Access Profile)",
+        "HFP (Hands-Free Profile)",
+        "HID (Human Interface Profile)",
+        "HSP (Headset Profile)",
+        "MAP (Message Access Profile)",
+        "PAN (Personal Area Networking Profile)",
+        "SPP (Serial Port Protocol)",
+        "SDP (Service Discovery Protocol)",
+        "OPP (Object Push Profile)",
+        "PBAP/PAB (Phone Book Access Profile)"
+      ]
+    },
+    "Navigation": {
+      "Supports": "GPS, A-GPS, GLONASS"
+    },
+    "USB": {
+      "Charging": true,
+      "Host": true,
+      "European measurement": "0.342 W/Kg on head, 0.547 W/Kg on body",
+      "American measurement": "0.628 W/Kg on head, 1.584 W/Kg on body"
+    },
+    "Battery of Samsung Galaxy S3": {
+      "Capacity": "2100 mAh",
+      "Type": "Li-Ion",
+      "Fast charge": false,
+      "Others": [
+        "Wireless charging",
+        "Removable"
+      ]
+    },
+    "Software": {
+      "Operating System": "Android 4.1 Jelly Bean Android 4.3 Jelly Bean",
+      "Google Services": "With Google Mobile Services"
+    }
+  }
+}
