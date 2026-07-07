@@ -4,7 +4,7 @@ import { RouterLink, RouterView } from 'vue-router'
 
 <template>
   <div style="height: 100vh; overflow: hidden">
-    <nav class="navbar navbar-expand-lg">
+     <nav class="navbar navbar-expand-lg">
       <div class="container-fluid">
         <div class="k-nav-brand bg-body-tertiary">
           <RouterLink class="navbar-brand" to="/">kbleCC</RouterLink>
@@ -27,6 +27,9 @@ import { RouterLink, RouterView } from 'vue-router'
             <li class="nav-item">
               <RouterLink class="nav-link" to="/">Home</RouterLink>
             </li>
+             <li class="nav-item">
+              <RouterLink class="nav-link" to="/collections"> Collections </RouterLink>
+            </li>
             <li class="nav-item">
               <RouterLink class="nav-link" to="/works"> Works </RouterLink>
             </li>
@@ -38,7 +41,13 @@ import { RouterLink, RouterView } from 'vue-router'
       </div>
     </nav>
     <div style="height: 95vh">
-      <RouterView />
+      <RouterView v-slot="{ Component }">
+        <transition name="fade" mode="out-in">
+          <div :key="$route.name">
+            <component :is="Component"></component>
+          </div>
+        </transition>
+      </RouterView>
     </div>
   </div>
 </template>
@@ -51,7 +60,7 @@ export default {
     hideXSnav() {
       const navbarToggler = this.$refs.navbarToggler
       console.log(navbarToggler)
-      if (navbarToggler.ariaExpanded === "true") {
+      if (navbarToggler.ariaExpanded === 'true') {
         setTimeout(() => {
           navbarToggler.click()
         }, 200)
@@ -61,9 +70,7 @@ export default {
 }
 </script>
 
-<style>
-
-</style>
+<style></style>
 <style scoped>
 button.navbar-toggler {
   background-color: rosybrown;
@@ -80,7 +87,7 @@ nav {
 .k-nav-brand {
   border-radius: 1rem;
   padding: 0.75rem;
-  background-color: rgba(var(--bs-tertiary-bg-rgb), var(--bs-bg-opacity, 1));
+  background-color: #2a2a2a;
   z-index: 1000;
 }
 
@@ -93,11 +100,10 @@ nav {
 .nav-link {
   transition: unset;
 }
-.navbar-nav
-{
-padding: 0.5rem;
+.navbar-nav {
+  padding: 0.5rem;
   border-radius: 1rem;
-  background-color: rgba(var(--bs-tertiary-bg-rgb), 1) !important;
+  background-color: #2a2a2a !important;
 }
 
 @media (max-width: 576px) {
@@ -108,7 +114,7 @@ padding: 0.5rem;
     z-index: 1000;
   }
 
- button.navbar-toggler {
+  button.navbar-toggler {
     padding: 0.5rem;
     position: fixed;
     bottom: 1rem;
@@ -126,7 +132,7 @@ padding: 0.5rem;
     width: 100%;
     padding: 1rem;
     border-radius: 1rem;
-    background-color: rgba(var(--bs-tertiary-bg-rgb), 1) !important;
+    background-color: #2a2a2a !important;
     margin: 0 0 5rem 0;
     z-index: 1000;
     transition: all 0.3s;
@@ -142,7 +148,7 @@ padding: 0.5rem;
   }
   button.navbar-toggler {
     position: fixed;
-    padding:0.75rem;
+    padding: 0.75rem;
     top: 1rem;
     right: 1rem;
     left: unset;
@@ -158,12 +164,11 @@ padding: 0.5rem;
     width: 100%;
     padding: 1rem;
     border-radius: 1rem;
-    background-color: rgba(var(--bs-tertiary-bg-rgb), 1) !important;
+    background-color: #2a2a2a !important;
     margin: 5rem 0 0 0;
     z-index: 1000;
     transition: all 0.3s;
   }
-
 }
 
 #navbarNav .router-link-exact-active {
@@ -172,4 +177,20 @@ padding: 0.5rem;
   font-weight: bold;
   background: #ffaeae;
 }
-</style>
+
+/* Start and end states */
+.fade-enter-from {
+  opacity: 0;
+  transform: translateY(5vh);
+}
+.fade-leave-to {
+  opacity: 0;
+  transform: translateY(5vh);
+}
+/* Active transition states */
+.fade-enter-active,
+.fade-leave-active {
+  transition:
+    opacity 0.15s
+ ease, transform 0.3s
+   ease;}</style>

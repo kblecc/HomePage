@@ -31,22 +31,22 @@
               :tags="work.tags"
               :intro="work.intro"
               :img="work.img"
-              @click="setCurrentWork(work.id)"
+              @click="$router.push('/work/'+work.id)"
             ></portfolioCard>
           </div>
         </div>
       </div>
     </div>
   </div>
-  <portfolioModal :id="currentWork"></portfolioModal>
+  <!-- <portfolioModal :id="currentWork"></portfolioModal> -->
 </template>
 <script>
 import carousel from '@/components/carouselFullWidth.vue'
 import portfolioCard from '@/components/portfolioCard.vue'
-import portfolioModal from '@/components/portfolioModal.vue'
+//import portfolioModal from '@/components/portfolioModal.vue'
 export default {
   name: 'PortfolioView',
-  components: { carousel, portfolioCard, portfolioModal },
+  components: { carousel, portfolioCard },
   computed: {},
   data() {
     return {
@@ -122,10 +122,7 @@ export default {
     }
   },
   methods: {
-    setCurrentWork(id) {
-      console.log('Setting current work to:', id)
-      this.currentWork = id
-    },
+
     sortByYear(year) {
       return this.works
         .filter((work) => new Date(work.created).getFullYear() === year)
@@ -135,16 +132,10 @@ export default {
 }
 </script>
 <style scoped>
-.k-div-scrollable {
-  position: absolute;
-  top: 0;
-  left: 0;
-  padding: 5rem 0;
-  height: 100%;
-  width: 100%;
-  overflow-x: hidden;
-  overflow-y: scroll;
+.col{
+  padding:0;
 }
+
 .k-content-container {
   padding: 0 1rem;
 }
