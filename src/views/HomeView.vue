@@ -32,6 +32,7 @@ export default {
       currentWord: 0,
       cw: null,
       nw: null,
+      show: false,
     }
   },
   computed: {
@@ -41,6 +42,7 @@ export default {
   },
   methods: {
     changeWord() {
+      if (this.show===true){
       console.log(this.currentWord)
       let cw = this.wordArray[this.currentWord]
       let nw =
@@ -57,7 +59,7 @@ export default {
         this.animateLetterIn(nw, i)
       }
 
-      this.currentWord = this.currentWord == this.wordArray.length - 1 ? 0 : this.currentWord + 1
+      this.currentWord = this.currentWord == this.wordArray.length - 1 ? 0 : this.currentWord + 1}
     },
 
     animateLetterOut(cw, i) {
@@ -98,6 +100,12 @@ export default {
     console.log(this.wordArray)
     this.changeWord()
     setInterval(this.changeWord, 4000)
+    this.show=true;
+  },
+  beforeUnmount() {
+
+    clearInterval(this.changeWord);
+    this.show = false;
   },
 }
 </script>
