@@ -135,16 +135,7 @@ export default {
 .col{
   padding:0;
 }
-.k-div-scrollable {
-  position: absolute;
-  top: 0;
-  left: 0;
-  padding: 5rem 0;
-  height: 100%;
-  width: 100%;
-  overflow-x: hidden;
-  overflow-y: scroll;
-}
+
 .k-content-container {
   padding: 0 1rem;
 }
