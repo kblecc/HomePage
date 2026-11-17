@@ -7,7 +7,7 @@
   <div class="content">
 
       <h3 class="mb-0 fw-bold">Hear i am Website</h3>
-      <div class="k-tags-container">
+      <div class="tags-container">
         <span class="badge rounded-pill text-bg-primary">Design</span
         ><span class="badge rounded-pill text-bg-primary">Development</span
         ><span class="badge rounded-pill text-bg-primary">Website</span

@@ -162,7 +162,8 @@ img {
 }
 
 .slide {
-  min-width: 100%;
+  box-sizing: border-box;
+  flex: 0 0 100%;
   position: relative;
   overflow: hidden;
   padding: 0 0.5rem;
@@ -198,7 +199,7 @@ img {
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
-  background-color: rgba(255, 255, 255, 0.8);
+  background-color: #ffaeae;
   border: none;
   border-radius: 50%;
   width: 50px;

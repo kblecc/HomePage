@@ -1,23 +1,23 @@
 <template>
-  <div
-    class="container-fluid d-flex justify-content-center align-items-center"
-    style="height: 90vh"
-  >
+  <div class="container" style="height: 90dvh">
     <div class="container row">
       <img class="avatar m-element" src="@/assets/avatar.png" />
-      <h1>Hi, this is kble</h1>
-      <h2>
-        I am a
-        <span class="word text-success">painter</span>
-        <span class="word text-warning">designer</span>
-        <span class="word text-info">developer</span>
-        <span class="word text-danger">collector</span>
-      </h2>
-      <p>
-        I do all kind of stuff, mini projects and learn from them.<br />
-        Feel free to look around, hope that you would get to know more about me and find something
-        useful.
-      </p>
+      <div class="text">
+        <h1 id="xl">Hi</h1>
+        <h1>This is kble</h1>
+        <h2>I am a</h2>
+        <h2 class="word-wrapper">
+          <span class="word red">painter</span>
+          <span class="word green">designer</span>
+          <span class="word blue">developer</span>
+          <span class="word purple">collector</span>
+        </h2>
+        <p class="homeDesc">
+          I do all kind of stuff, mini projects and learn from them.<br />
+          Feel free to look around, hope that you would get to know more about me and find something
+          useful.
+        </p>
+      </div>
     </div>
   </div>
   <div class="footer">© 2024 | Caleb Cheng | All rights reserved</div>
@@ -42,24 +42,25 @@ export default {
   },
   methods: {
     changeWord() {
-      if (this.show===true){
-      console.log(this.currentWord)
-      let cw = this.wordArray[this.currentWord]
-      let nw =
-        this.currentWord == this.words.length - 1
-          ? this.wordArray[0]
-          : this.wordArray[this.currentWord + 1]
-      for (var i = 0; i < cw.length; i++) {
-        this.animateLetterOut(cw, i)
-      }
+      if (this.show === true) {
+        console.log(this.currentWord)
+        let cw = this.wordArray[this.currentWord]
+        let nw =
+          this.currentWord == this.words.length - 1
+            ? this.wordArray[0]
+            : this.wordArray[this.currentWord + 1]
+        for (var i = 0; i < cw.length; i++) {
+          this.animateLetterOut(cw, i)
+        }
 
-      for (var i = 0; i < nw.length; i++) {
-        nw[i].className = 'letter behind'
-        nw[0].parentElement.style.opacity = 1
-        this.animateLetterIn(nw, i)
-      }
+        for (var i = 0; i < nw.length; i++) {
+          nw[i].className = 'letter behind'
+          nw[0].parentElement.style.opacity = 1
+          this.animateLetterIn(nw, i)
+        }
 
-      this.currentWord = this.currentWord == this.wordArray.length - 1 ? 0 : this.currentWord + 1}
+        this.currentWord = this.currentWord == this.wordArray.length - 1 ? 0 : this.currentWord + 1
+      }
     },
 
     animateLetterOut(cw, i) {
@@ -100,38 +101,105 @@ export default {
     console.log(this.wordArray)
     this.changeWord()
     setInterval(this.changeWord, 4000)
-    this.show=true;
+    this.show = true
   },
   beforeUnmount() {
-
-    clearInterval(this.changeWord);
-    this.show = false;
+    clearInterval(this.changeWord)
+    this.show = false
   },
 }
 </script>
 
 <style scoped>
 .footer {
-  font-size: 0.7rem;
-  padding: 1rem;
-  margin: 0;
   position: fixed;
-  bottom: 1rem;
   right: 1rem;
+  bottom: 1rem;
+  margin: 0;
+  padding: 1rem;
+  font-size: 0.7rem;
+}
+h1 {
+  margin: 0px;
+}
+
+#xl {
+  margin: 2rem 0px 0px 0px;
+  font-size: 6rem;
+}
+
+h2 {
+  margin: 1rem 0px 0px 0px;
+}
+
+p {
+  margin: 3rem 0px 0px 0px;
+  text-align: right;
+}
+
+.word-wrapper {
+  display: relative;
+  top: -50px;
+  margin-top: -5px;
+}
+
+.text {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  margin: 3rem;
+}
+
+.homeDesc {
+  max-width: 50%;
 }
 
 .avatar {
-  max-width: 150px;
-  border-radius: 50%;
+  position: absolute;
+  bottom: 0px;
+  max-width: 50vw;
+  max-height: 95dvh;
+}
+
+@media (max-width: 576px) {
+  .avatar {
+    bottom: 0px;
+    max-width: 100vw;
+    max-height: 50dvh;
+  }
+  .text {
+    position: absolute;
+    top: 0;
+    margin: 1rem;
+  }
+  .word {
+    right: 1rem;
+  }
+  .homeDesc {
+    max-width: 90%;
+  }
+}
+
+.red {
+  color: #ffaeae;
+}
+.blue {
+  color: #aedcff;
+}
+.purple {
+  color: #c5aeff;
+}
+.green {
+  color: #a3fac4;
 }
 </style>
 
 <style>
 .word {
   position: absolute;
-  width: 220px;
+  right: 3.5rem;
+  width: auto;
   opacity: 0;
-  margin-left: 1vh;
 }
 
 .letter {

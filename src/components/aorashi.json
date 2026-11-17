@@ -1,0 +1,94 @@
+{
+    "title":{
+        "original":"青嵐",
+        "hiragana":"あおあらし",
+        "english":""
+
+    },
+    "description":"<p>鮮やかな緑色に、甘い香りとまろやかな旨味が特徴の抹茶です。<br class='pc'> 少し薄めにされると、さっぱりとした風味になります。<br class='pc'> また、製菓などミルクやクリームに混ぜると、よくマッチします。</p><p><strong>※必ずお読みください／Please read before purchase※</strong><br> 〇在庫薄のため、抹茶製品はお送り先１軒につき<strong>、ご注文は月に１回・合計で最大５点まで</strong>とさせていただきます。<br class='pc'> 一部の商品は１点または２点を上限としております。ご理解のほどよろしくお願いいたします。<br class='pc'> 〇<a class='text-link link-outsite' href='https://www.marukyu-koyamaen.co.jp/information/news-3201/'>抹茶のご注文に関する大切なお知らせ／Important notice about ordering Matcha</a><br> 〇<a class='text-link link-outsite' href='https://www.marukyu-koyamaen.co.jp/information/post-35521/'>ご本人の転売意向の有無に関わらず、当社で不適切と判断した場合にはキャンセルとさせていただく場合がございます。</a></p><p>ご理解・ご協力のほどよろしくお願い申し上げます。</p>",
+    "cover":"https://www.marukyu-koyamaen.co.jp/motoan-shop/wp-content/uploads/2020/11/01-10-aoarashi-40g-7402.jpg.webp",
+    "brand":"ffffff",
+    "category":"",
+    "order":10,
+    "options":[
+        {
+            "order":0,
+            "weight":40,
+            "type": "can",
+            "img":"https://www.marukyu-koyamaen.co.jp/motoan-shop/wp-content/uploads/2020/11/01-10-aoarashi-40g-7402.jpg.webp",
+            "size":{
+                "d":6,
+                "h":7
+
+            },
+            "expiry":7,
+            "price":[ {
+                "taxed": true,
+                "update": "2018-12-10T13:45:00.000Z",
+                "value": 2160
+            },{
+                "taxed": false,
+                "update": "2018-12-10T13:45:00.000Z",
+                "value": 2120
+            }]
+               
+            
+        },
+          {
+            "order":1,
+            "weight":100,"img":"https://www.marukyu-koyamaen.co.jp/motoan-shop/wp-content/uploads/2020/11/01-10-aoarashi-40g-7402.jpg.webp",
+            "type": "can",
+            "size":{
+                "d":7,
+                "h":10
+
+            },
+            "expiry":7
+
+        },
+          {
+            "order":2,
+            "weight":100,"img":"https://www.marukyu-koyamaen.co.jp/motoan-shop/wp-content/uploads/2020/11/01-10-aoarashi-40g-7402.jpg.webp",
+            "type": "bag",
+            "size":{
+                "l":14.5,
+                "w":21,
+                "h":2,
+
+            },
+            "expiry":7
+
+        },
+           {
+            "order":3,
+            "weight":200,"img":"https://www.marukyu-koyamaen.co.jp/motoan-shop/wp-content/uploads/2020/11/01-10-aoarashi-40g-7402.jpg.webp",
+            "type": "can",
+            "size":{
+                "d":9,
+                "h":12.8
+
+            },
+            "expiry":7
+
+        },
+           {
+            "order":4,
+            "weight":500,"img":"https://www.marukyu-koyamaen.co.jp/motoan-shop/wp-content/uploads/2020/11/01-10-aoarashi-40g-7402.jpg.webp",
+            "type": "bag",
+            "size":{
+               "l":21,
+                "w":31,
+                "h":4,
+
+            },
+            "expiry":7
+
+        },
+                 {
+            "order":5,"img":"https://www.marukyu-koyamaen.co.jp/motoan-shop/wp-content/uploads/2020/11/01-10-aoarashi-40g-7402.jpg.webp",
+            "type": "bag",
+            "expiry":7
+
+        },
+    ]
+}

@@ -1,43 +1,40 @@
 <template>
-  <div class="k-div-scrollable">
-    <div class="container">
-      <carousel
-        :slides="[
-          {
-            img: 'https://raw.githubusercontent.com/kblecc/HomePage/refs/heads/2025/src/assets/portfolio/UniPot/Banner.jpg',
-          },
-          {
-            img: 'https://raw.githubusercontent.com/kblecc/HomePage/refs/heads/2025/src/assets/portfolio/HearIamAppUI/Banner.jpg',
-          },
-          {
-            img: 'https://raw.githubusercontent.com/kblecc/HomePage/refs/heads/2025/src/assets/portfolio/Easybrew/Banner.jpg',
-          },
-          {
-            img: 'https://raw.githubusercontent.com/kblecc/HomePage/refs/heads/2025/src/assets/portfolio/GrantNexus/Banner.jpg',
-          },
-        ]"
-      />
+  <div class="content-container">
+    <carousel
+      :slides="[
+        {
+          img: 'https://raw.githubusercontent.com/kblecc/HomePage/refs/heads/2025/src/assets/portfolio/UniPot/Banner.jpg',
+        },
+        {
+          img: 'https://raw.githubusercontent.com/kblecc/HomePage/refs/heads/2025/src/assets/portfolio/HearIamAppUI/Banner.jpg',
+        },
+        {
+          img: 'https://raw.githubusercontent.com/kblecc/HomePage/refs/heads/2025/src/assets/portfolio/Easybrew/Banner.jpg',
+        },
+        {
+          img: 'https://raw.githubusercontent.com/kblecc/HomePage/refs/heads/2025/src/assets/portfolio/GrantNexus/Banner.jpg',
+        },
+      ]"
+    />
 
-      <div class="k-content-container">
-        <div v-for="year in years" :key="year">
-          <div class="k-year-badge">
-            <h2 class="m-0">{{ year }}</h2>
-          </div>
-          <div class="row row-cols-1 row-cols-md-2">
-            <portfolioCard
-              v-for="work in sortByYear(year)"
-              :key="work.id"
-              :title="work.title"
-              :tags="work.tags"
-              :intro="work.intro"
-              :img="work.img"
-              @click="$router.push('/work/'+work.id)"
-            ></portfolioCard>
-          </div>
-        </div>
+    <div v-for="year in years" :key="year">
+      <div class="k-year-badge">
+        <h2 class="m-0">{{ year }}</h2>
+      </div>
+      <div class="row-col-2">
+        <portfolioCard
+          v-for="work in sortByYear(year)"
+          :key="work.id"
+          :title="work.title"
+          :tags="work.tags"
+          :intro="work.intro"
+          :img="work.img"
+          @click="$router.push('/work/' + work.id)"
+        ></portfolioCard>
       </div>
     </div>
   </div>
+
   <!-- <portfolioModal :id="currentWork"></portfolioModal> -->
 </template>
 <script>
@@ -122,7 +119,6 @@ export default {
     }
   },
   methods: {
-
     sortByYear(year) {
       return this.works
         .filter((work) => new Date(work.created).getFullYear() === year)
@@ -132,19 +128,19 @@ export default {
 }
 </script>
 <style scoped>
-.col{
-  padding:0;
+.col {
+  padding: 0;
 }
 
 .k-content-container {
   padding: 0 1rem;
 }
 .k-card {
-  border-radius: 1rem;
   margin: 0, 0, 1rem, 0;
   padding: 0;
-  background-color: rgba(var(--bs-tertiary-bg-rgb), 1) !important;
+  border-radius: 1rem;
   border-radius: 2rem;
+  background-color: rgba(var(--bs-tertiary-bg-rgb), 1) !important;
   transition: cubic-bezier(0.075, 0.82, 0.165, 1) 0.3s;
 }
 .k-card:hover {
@@ -155,34 +151,30 @@ export default {
   transform: scale(0.96);
 }
 .icon {
-  background-color: #ffaeae;
-  border-radius: 50%;
-  padding: 0.5rem;
-  width: 2.5rem;
-  height: 2.5rem;
   display: flex;
   align-items: center;
   justify-content: center;
+  width: 2.5rem;
+  height: 2.5rem;
+  padding: 0.5rem;
+  border-radius: 50%;
+  background-color: #ffaeae;
 }
 
 .k-year-badge {
-  position: sticky;
-  top: 0.5rem;
-  background-color: #464646;
-  border-radius: 1.5rem;
-  padding: 1rem;
   display: inline-block;
-  margin: 1rem 0;
   z-index: 100;
+  position: sticky;
+  top: 64px;
+  margin: 1rem 0;
+  padding: var(--padding-2);
+  border-radius: var(--radius-2);
+  background-color: #464646;
 }
 .k-card-img {
   width: 100%;
   height: auto;
   border-radius: 2rem;
 }
-.k-tags-container {
-  display: flex;
-  gap: 0.5rem;
-  margin: 0.5rem 0;
-}
+
 </style>

@@ -148,6 +148,7 @@ img {
 
 .carousel-container {
   position: relative;
+  overflow-x: hidden;
 }
 
 .carousel {
@@ -162,7 +163,8 @@ img {
 }
 
 .slide {
-  min-width: 100%;
+  box-sizing: border-box;
+  flex: 0 0 100%;
   position: relative;
   overflow: hidden;
   padding: 0 0.5rem;
@@ -171,7 +173,7 @@ img {
 .slide-div {
   min-width: 100%;
   position: relative;
-  border-radius: 3rem;
+  border-radius: var(--radius-3);
   overflow: hidden;
 }
 
@@ -180,7 +182,7 @@ img {
   height: auto;
   display: block;
   aspect-ratio: 16/9;
-  background-color: #ddd;
+  background-color: #1a1a1a;
 }
 
 .slide-content {
@@ -198,7 +200,7 @@ img {
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
-  background-color: rgba(255, 255, 255, 0.8);
+  background-color: #f69090 ;
   border: none;
   border-radius: 50%;
   width: 50px;
@@ -214,7 +216,7 @@ img {
 
 .prev-btn:hover,
 .next-btn:hover {
-  background-color: rgba(255, 255, 255, 1);
+  background-color: #ffaeae;
 }
 
 .prev-btn {
@@ -245,7 +247,7 @@ img {
 }
 
 .indicator.active {
-  background-color: rgba(255, 255, 255, 1);
+  background-color: #ffaeae;
   transform: scaleX(1.5);
 }
 

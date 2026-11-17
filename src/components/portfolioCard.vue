@@ -3,24 +3,21 @@
     <div class="k-card">
       <img
         :src="img"
-        class="k-card-img"
+        class="card-img"
         alt="Scenic nature landscape with mountains, lake, and forest during golden hour"
       />
-      <div class="d-flex justify-content-between">
-        <div class="d-flex flex-row align-items-center">
-          <div class="p-4 c-details">
-            <h3 class="mb-0 ">{{ this.title }}</h3>
-            <div class="k-tags-container">
-              <span class="badge rounded-pill text-bg-primary" v-for="tag in tags" :key="tag">{{
-                tag
-              }}</span>
-            </div>
 
-            <p class="mb-0 text-muted">
-              {{ this.intro }}
-            </p>
-          </div>
+      <div class="details">
+        <h3>{{ this.title }}</h3>
+        <div class="tags-container">
+          <span class="badge" v-for="tag in tags" :key="tag">{{
+            tag
+          }}</span>
         </div>
+
+        <p>
+          {{ this.intro }}
+        </p>
       </div>
     </div>
   </div>
@@ -45,11 +42,11 @@ export default {
 </script>
 <style scoped>
 .k-card {
-  border-radius: 1rem;
   margin: 0.5rem;
   padding: 0;
-   background-color: #2a2a2a;
+  border-radius: 1rem;
   border-radius: 2rem;
+  background-color: #2a2a2a;
   transition: cubic-bezier(0.075, 0.82, 0.165, 1) 0.3s;
 }
 
@@ -57,14 +54,22 @@ export default {
   transform: scale(1.04);
 }
 
-.k-card-img {
+.details{
+  padding: var(--padding-1)
+}
+
+.details h3{
+  margin:0px;
+
+}
+
+
+
+.card-img {
   width: 100%;
   height: auto;
   border-radius: 2rem;
 }
-.k-tags-container {
-  display: flex;
-  gap: 0.5rem;
-  margin: 0.5rem 0;
-}
+
+
 </style>

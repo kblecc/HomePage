@@ -7,7 +7,7 @@
   <div class="description">
     <div class="p-4 c-details">
       <h3 class="mb-0 fw-bold">Hear i am App UI - v3</h3>
-      <div class="k-tags-container">
+      <div class="tags-container">
         <span class="badge rounded-pill text-bg-primary">Design</span>
         <span class="badge rounded-pill text-bg-primary">UI</span>
       </div>

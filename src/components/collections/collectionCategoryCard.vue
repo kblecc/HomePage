@@ -8,7 +8,7 @@
           <div class="p-4 c-details">
 
             <h3 class="mb-0 fw-bold">{{ this.title }}</h3>
-            <div class="k-tags-container">
+            <div class="tags-container">
               <span class="badge rounded-pill text-bg-primary" v-for="tag in tags" :key="tag">{{
                 tag
               }}</span>
@@ -60,7 +60,7 @@ export default {
   height: auto;
   border-radius: 2rem;
 }
-.k-tags-container {
+.tags-container {
   display: flex;
   gap: 0.5rem;
   margin: 0.5rem 0;

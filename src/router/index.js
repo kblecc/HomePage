@@ -61,11 +61,6 @@ const router = createRouter({
       ],
     },
     {
-      path: '/collections',
-      name: 'collections',
-      component: () => import('../views/CollectionsView.vue'),
-    },
-    {
       path: '/mobile',
       name: 'mobiles',
       component: () => import('../views/MobileDeviceListView.vue'),

@@ -1,34 +1,204 @@
+/* Import Font */
+@import url('https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Manjari:wght@100;400;700&display=swap&subset=latin');
+
+@font-face {
+  src: url('https://fonts.googleapis.com/css2?family=Manjari:wght@100;400;700&display=swap&subset=latin')
+    format('woff2');
+  font-family: 'Manjari';
+  unicode-range: U+0000-00FF; /* Targets standard Latin characters */
+}
+
+/* Base Style */
 body {
   background-color: #1a1a1a;
-  color:#fefefe;
-    font-family: "Raleway", sans-serif;
-  font-weight: 300;
+  color: #fefefe;
   font-style: normal;
-
+  font-weight: 300;
+  font-family: 'Manjari', 'M PLUS Rounded 1c', sans-serif;
 }
 
 h1 {
-   font-family: "Raleway", sans-serif;
-   font-optical-sizing: auto;
   font-weight: 600;
+  font-family: 'Manjari', 'M PLUS Rounded 1c', sans-serif;
+  font-optical-sizing: auto;
 }
 
-h2{
-  font-family: "Raleway", sans-serif;
-  font-weight: 500;
+h2 {
+  font-weight: 400;
+  font-family: 'Manjari', 'M PLUS Rounded 1c', sans-serif;
 }
+
 :root {
---ani: linear(0, 0.0093, 0.0346, 0.0725, 0.1198, 0.1739, 0.2325, 0.2937, 0.3559, 0.4178, 0.4783, 0.5367, 0.5922, 0.6445, 0.6931, 0.738, 0.779, 0.8162, 0.8495, 0.8792, 0.9054, 0.9283, 0.9481, 0.965, 0.9794, 0.9913, 1.0012, 1.0091, 1.0154, 1.0202, 1.0237, 1.0261, 1.0276, 1.0283, 1.0283, 1.0279, 1.027, 1.0258, 1.0244, 1.0228, 1.0211, 1.0193, 1.0176, 1.0158, 1.0141, 1.0125, 1.011, 1.0095, 1.0082, 1.007, 1.0058, 1.0048, 1.0039, 1.0031, 1.0024, 1.0018, 1.0013, 1.0008, 1.0004, 1.0001, 0.9999, 0.9997, 0.9995, 0.9994, 0.9993, 0.9992, 0.9992, 0.9992, 0.9992, 0.9992, 0.9992, 0.9993, 0.9993, 0.9994, 0.9994, 0.9995, 0.9995, 0.9996, 0.9996, 0.9997, 0.9997, 0.9997, 0.9998, 0.9998, 0.9998, 0.9999, 0.9999, 0.9999, 0.9999, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1)
+  --ani: linear(
+    0,
+    0.0093,
+    0.0346,
+    0.0725,
+    0.1198,
+    0.1739,
+    0.2325,
+    0.2937,
+    0.3559,
+    0.4178,
+    0.4783,
+    0.5367,
+    0.5922,
+    0.6445,
+    0.6931,
+    0.738,
+    0.779,
+    0.8162,
+    0.8495,
+    0.8792,
+    0.9054,
+    0.9283,
+    0.9481,
+    0.965,
+    0.9794,
+    0.9913,
+    1.0012,
+    1.0091,
+    1.0154,
+    1.0202,
+    1.0237,
+    1.0261,
+    1.0276,
+    1.0283,
+    1.0283,
+    1.0279,
+    1.027,
+    1.0258,
+    1.0244,
+    1.0228,
+    1.0211,
+    1.0193,
+    1.0176,
+    1.0158,
+    1.0141,
+    1.0125,
+    1.011,
+    1.0095,
+    1.0082,
+    1.007,
+    1.0058,
+    1.0048,
+    1.0039,
+    1.0031,
+    1.0024,
+    1.0018,
+    1.0013,
+    1.0008,
+    1.0004,
+    1.0001,
+    0.9999,
+    0.9997,
+    0.9995,
+    0.9994,
+    0.9993,
+    0.9992,
+    0.9992,
+    0.9992,
+    0.9992,
+    0.9992,
+    0.9992,
+    0.9993,
+    0.9993,
+    0.9994,
+    0.9994,
+    0.9995,
+    0.9995,
+    0.9996,
+    0.9996,
+    0.9997,
+    0.9997,
+    0.9997,
+    0.9998,
+    0.9998,
+    0.9998,
+    0.9999,
+    0.9999,
+    0.9999,
+    0.9999,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+  );
+  --padding: 8px;
+  --padding-1: 16px;
+  --padding-2: 16px;
+  --radius-0: 4px;
+  --radius-1: 8px;
+  --radius-2: 16px;
+  --radius-3: 32px;
+  --radius-4: 64px;
 }
 
+/* Layout Related */
 
-.k-div-scrollable {
-  position: absolute;
-  top: 0;
-  left: 0;
-  padding: 5rem 0;
-  height: 100%;
+.content-container {
+  box-sizing: border-box; /* Ensures padding doesn't break the max-width calculation */
   width: 100%;
-  overflow-x: hidden;
-  overflow-y: scroll;
+  max-width: 1200px;
+  margin-right: auto;
+  margin-left: auto;
+  padding-top: 16px;
+  padding-right: 0.5rem; /* Prevents content from touching mobile screen edges */
+  padding-left: 0.5rem; /* Prevents content from touching mobile screen edges */
+}
+
+.content-container.back {
+  box-sizing: border-box; /* Ensures padding doesn't break the max-width calculation */
+  width: 100%;
+  max-width: 1200px;
+  margin-right: auto;
+  margin-left: auto;
+  padding-top:0px;
+  padding-right: 0.5rem; /* Prevents content from touching mobile screen edges */
+  padding-left: 0.5rem; /* Prevents content from touching mobile screen edges */
+}
+
+.row-col-2 {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+@media (max-width: 576px) {
+  .row-col-2 {
+    grid-template-columns: 1fr;
+  }
+}
+
+.tags-container {
+  display: flex;
+  margin: 0.5rem 0;
+  gap: 0.5rem;
+}
+
+/* Component */
+
+button {
+  color: #fefefe;
+  font-style: normal;
+  font-weight: 300;
+  font-family: 'Raleway', sans-serif;
+}
+
+.badge {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 9px 9px 4px 9px;
+  border-radius: 8px;
+  background-color: #ffaeae;
+  color: #432323;
 }

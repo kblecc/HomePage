@@ -280,32 +280,50 @@
               </div>
             </div>
           </div>
-          <p class="mt-3 mb-0 p-1 text-muted">Custom-made high quality figurine and cute characters from animes</p>
+          <p class="mt-3 mb-0 p-1 text-muted">
+            Custom-made high quality figurine and cute characters from animes
+          </p>
         </div>
         <!-- Manga -->
-         <div class="k-card">
+        <div class="k-card">
           <div class="d-flex justify-content-between">
             <div class="d-flex flex-row align-items-center">
               <div class="icon-background">
-               <svg width="24" height="24" viewBox="0 0 105 106" fill="none" xmlns="http://www.w3.org/2000/svg">
-<rect x="4" y="19" width="24" height="83" rx="8" stroke="#fff" stroke-width="8"/>
-<rect x="76" y="30" width="25" height="72" rx="8" stroke="#fff" stroke-width="8"/>
-<rect x="40" y="4" width="24" height="98" rx="8" stroke="#fff" stroke-width="8"/>
-<path d="M52 17V55" stroke="#fff" stroke-width="8" stroke-linecap="round"/>
-<path d="M89 42L88 42" stroke="#fff" stroke-width="8" stroke-linecap="round"/>
-<path d="M89 52L88 52" stroke="#fff" stroke-width="8" stroke-linecap="round"/>
-<path d="M16 67L16 66" stroke="#fff" stroke-width="8" stroke-linecap="round"/>
-<path d="M89 90L88 90" stroke="#fff" stroke-width="8" stroke-linecap="round"/>
-<path d="M16 31V55" stroke="#fff" stroke-width="8" stroke-linecap="round"/>
-</svg>
-
+                <svg
+                  width="24"
+                  height="24"
+                  viewBox="0 0 105 106"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <rect x="4" y="19" width="24" height="83" rx="8" stroke="#fff" stroke-width="8" />
+                  <rect
+                    x="76"
+                    y="30"
+                    width="25"
+                    height="72"
+                    rx="8"
+                    stroke="#fff"
+                    stroke-width="8"
+                  />
+                  <rect x="40" y="4" width="24" height="98" rx="8" stroke="#fff" stroke-width="8" />
+                  <path d="M52 17V55" stroke="#fff" stroke-width="8" stroke-linecap="round" />
+                  <path d="M89 42L88 42" stroke="#fff" stroke-width="8" stroke-linecap="round" />
+                  <path d="M89 52L88 52" stroke="#fff" stroke-width="8" stroke-linecap="round" />
+                  <path d="M16 67L16 66" stroke="#fff" stroke-width="8" stroke-linecap="round" />
+                  <path d="M89 90L88 90" stroke="#fff" stroke-width="8" stroke-linecap="round" />
+                  <path d="M16 31V55" stroke="#fff" stroke-width="8" stroke-linecap="round" />
+                </svg>
               </div>
               <div class="ps-3 c-details">
                 <h3 class="mb-0">Doujinshi</h3>
               </div>
             </div>
           </div>
-          <p class="mt-3 mb-0 p-1 text-muted">Self-published print works from various artists, project is created to archive what I bought and likes.</p>
+          <p class="mt-3 mb-0 p-1 text-muted">
+            Self-published print works from various artists, project is created to archive what I
+            bought and likes.
+          </p>
         </div>
       </div>
     </div>
@@ -326,64 +344,63 @@ export default {
     redirect(url) {
       window.location.href = url
     },
-    openNewTab(url){
-      window.open(url, '_blank', 'noreferrer');
-    }
+    openNewTab(url) {
+      window.open(url, '_blank', 'noreferrer')
+    },
   },
 }
 </script>
 <style scoped>
-
 .multicol-gallery {
   --frame: 0;
-
-  columns: 18rem 3;
+  column-gap: var(--frame, 0.5rem);
 
   margin-inline: auto;
 
   padding: var(--frame, 0.5rem);
-  column-gap: var(--frame, 0.5rem);
+
+  columns: 18rem 3;
 }
 .col {
   padding: 0;
 }
 .icon-background {
-  background-color: #ffaeae;
   padding: 1rem;
   border-radius: 1rem;
+  background-color: #ffaeae;
 }
 .page-content {
   overflow-y: scroll;
 }
 .k-title-card {
-  border-radius: 2rem;
   margin: 0 0 2rem 0;
-  background-color: #2a2a2a;
   padding: 2rem 2rem 1rem 2rem;
+  border-radius: 2rem;
+  background-color: #2a2a2a;
 }
 .k-content-container {
   padding: 0 1rem;
 }
 .k-card {
   display: inline-block;
-  border-radius: 40px;
   margin: 0.5rem 0.5rem 0.7rem 0.5rem;
   padding: 1.5rem;
-  background-color: #2a2a2a;
+  border-radius: 40px;
   border-radius: 2rem;
+  background-color: #2a2a2a;
   transition: 0.9s var(--ani);
 }
 .k-card:hover {
   transform: scale(1.04);
 }
 .icon {
-  background-color: #ffaeae;
-  border-radius: 50%;
-  padding: 0.5rem;
-  width: 2.5rem;
-  height: 2.5rem;
   display: flex;
   align-items: center;
   justify-content: center;
+  width: 2.5rem;
+  height: 2.5rem;
+  padding: 0.5rem;
+  border-radius: 50%;
+  background-color: #ffaeae;
 }
 </style>

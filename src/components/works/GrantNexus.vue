@@ -6,7 +6,7 @@
   />
   <div class="content">
     <h3 class="mb-1 fw-bold">Grant Nexus</h3>
-    <div class="k-tags-container">
+    <div class="tags-container">
       <span class="badge rounded-pill text-bg-primary">Design</span>
       <span class="badge rounded-pill text-bg-primary">Branding</span>
       <span class="badge rounded-pill text-bg-primary">Graphic</span>
