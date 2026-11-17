@@ -163,9 +163,8 @@ p {
 
 @media (max-width: 576px) {
   .avatar {
-    bottom: 0px;
     max-width: 100vw;
-    max-height: 50dvh;
+    max-height: 45%;
   }
   .text {
     position: absolute;
@@ -173,11 +172,23 @@ p {
     margin: 1rem;
   }
   .word {
-    right: 1rem;
+    right: 0rem;
   }
   .homeDesc {
     max-width: 90%;
   }
+}
+
+@media (max-width: 375px) {
+  .avatar {
+
+    max-height: 40%;
+  }
+
+  .word {
+    right: 1rem;
+  }
+
 }
 
 .red {

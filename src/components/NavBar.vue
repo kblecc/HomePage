@@ -544,7 +544,6 @@ export default {
   border-radius: var(--radius-2);
   background-color: #2a2a2a;
   box-shadow: 0px 15px 50px #1a1a1a;
-
 }
 
 .nav-brand img {
@@ -740,14 +739,16 @@ p.desc {
     bottom: 1rem;
     width: 3rem;
     height: 3rem;
-    padding: 0px
+    padding: 0px;
   }
 
   .navbarToggler p {
     display: none;
   }
 
-  .backNav p{display:none;}
+  .backNav p {
+    display: none;
+  }
 
   .navPanel {
     /* Horizontally centers */
@@ -768,7 +769,10 @@ p.desc {
     width: 100%;
     height: 100%;
     padding: 32px;
+    font-size: 18px;
   }
+
+
 
   .navContent {
     width: 97%;
@@ -784,7 +788,8 @@ p.desc {
   }
 
   .navQuote {
-    font-size: 1rem;
+    margin: 0px;
+    font-size: 1.5rem !important;
   }
 }
 
